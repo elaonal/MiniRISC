@@ -1,0 +1,166 @@
+$date
+	Thu Aug 27 13:17:38 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module control_fsm_tb $end
+$var wire 1 ! writeback_state $end
+$var wire 3 " state [2:0] $end
+$var wire 1 # halted $end
+$var wire 1 $ fetch_state $end
+$var wire 1 % execute_state $end
+$var wire 1 & decode_state $end
+$var reg 1 ' clk $end
+$var reg 1 ( halt_req $end
+$var reg 1 ) reset $end
+$scope module dut $end
+$var wire 1 ' clk $end
+$var wire 1 ( halt_req $end
+$var wire 1 ) reset $end
+$var wire 1 ! writeback_state $end
+$var wire 1 # halted $end
+$var wire 1 $ fetch_state $end
+$var wire 1 % execute_state $end
+$var wire 1 & decode_state $end
+$var parameter 3 * DECODE $end
+$var parameter 3 + EXECUTE $end
+$var parameter 3 , FETCH $end
+$var parameter 3 - HALT $end
+$var parameter 3 . WRITEBACK $end
+$var reg 3 / next_state [2:0] $end
+$var reg 3 0 state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 .
+b100 -
+b0 ,
+b10 +
+b1 *
+$end
+#0
+$dumpvars
+bx 0
+b0 /
+1)
+0(
+0'
+x&
+x%
+x$
+x#
+bx "
+x!
+$end
+#5000
+b1 /
+1$
+0&
+0%
+0!
+0#
+b0 "
+b0 0
+1'
+#10000
+0'
+0)
+#15000
+b10 /
+0$
+1&
+b1 "
+b1 0
+1'
+#20000
+0'
+#25000
+b11 /
+0&
+1%
+b10 "
+b10 0
+1'
+#30000
+0'
+#35000
+b0 /
+0%
+1!
+b11 "
+b11 0
+1'
+#40000
+0'
+#45000
+b1 /
+1$
+0!
+b0 "
+b0 0
+1'
+#50000
+b1 /
+0'
+1(
+#55000
+b100 /
+0$
+1&
+b1 "
+b1 0
+1'
+#60000
+0'
+#65000
+0&
+1#
+b100 "
+b100 0
+1'
+#70000
+0'
+0(
+#75000
+1'
+#80000
+0'
+#85000
+1'
+#90000
+0'
+1)
+#95000
+b1 /
+1$
+0#
+b0 "
+b0 0
+1'
+#100000
+0'
+0)
+#105000
+b10 /
+0$
+1&
+b1 "
+b1 0
+1'
+#110000
+0'
+#115000
+b11 /
+0&
+1%
+b10 "
+b10 0
+1'
+#120000
+0'

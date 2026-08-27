@@ -1,0 +1,95 @@
+#! /opt/homebrew/Cellar/icarus-verilog/13.0/bin/vvp
+:ivl_version "13.0 (stable)" "(v13_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/va_math.vpi";
+S_0x100e08780 .scope module, "register_file" "register_file" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "clk";
+    .port_info 1 /INPUT 1 "reset";
+    .port_info 2 /INPUT 3 "read_addr1";
+    .port_info 3 /INPUT 3 "read_addr2";
+    .port_info 4 /INPUT 3 "write_addr";
+    .port_info 5 /INPUT 8 "write_data";
+    .port_info 6 /INPUT 1 "write_enable";
+    .port_info 7 /OUTPUT 8 "read_data1";
+    .port_info 8 /OUTPUT 8 "read_data2";
+L_0x100e0e7d0 .functor BUFZ 8, L_0x100e0e730, C4<00000000>, C4<00000000>, C4<00000000>;
+L_0x100e0f8a0 .functor BUFZ 8, L_0x100e0f720, C4<00000000>, C4<00000000>, C4<00000000>;
+v0x100e0f080_0 .net *"_ivl_0", 7 0, L_0x100e0e730;  1 drivers
+v0x100e0f120_0 .net *"_ivl_10", 4 0, L_0x100e0f7c0;  1 drivers
+L_0xbc1454058 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0x100e0f1c0_0 .net *"_ivl_13", 1 0, L_0xbc1454058;  1 drivers
+v0x100e0f260_0 .net *"_ivl_2", 4 0, L_0x100e0f680;  1 drivers
+L_0xbc1454010 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0x100e0f300_0 .net *"_ivl_5", 1 0, L_0xbc1454010;  1 drivers
+v0x100e0f3a0_0 .net *"_ivl_8", 7 0, L_0x100e0f720;  1 drivers
+o0xbc1420130 .functor BUFZ 1, c4<z>; HiZ drive
+v0x100e0f440_0 .net "clk", 0 0, o0xbc1420130;  0 drivers
+v0x100e0f4e0_0 .var/i "i", 31 0;
+o0xbc1420190 .functor BUFZ 3, c4<zzz>; HiZ drive
+v0xbc0c20000_0 .net "read_addr1", 2 0, o0xbc1420190;  0 drivers
+o0xbc14201c0 .functor BUFZ 3, c4<zzz>; HiZ drive
+v0xbc0c200a0_0 .net "read_addr2", 2 0, o0xbc14201c0;  0 drivers
+v0xbc0c20140_0 .net "read_data1", 7 0, L_0x100e0e7d0;  1 drivers
+v0xbc0c201e0_0 .net "read_data2", 7 0, L_0x100e0f8a0;  1 drivers
+v0xbc0c20280 .array "registers", 7 0, 7 0;
+o0xbc1420250 .functor BUFZ 1, c4<z>; HiZ drive
+v0xbc0c20320_0 .net "reset", 0 0, o0xbc1420250;  0 drivers
+o0xbc1420280 .functor BUFZ 3, c4<zzz>; HiZ drive
+v0xbc0c203c0_0 .net "write_addr", 2 0, o0xbc1420280;  0 drivers
+o0xbc14202b0 .functor BUFZ 8, c4<zzzzzzzz>; HiZ drive
+v0xbc0c20460_0 .net "write_data", 7 0, o0xbc14202b0;  0 drivers
+o0xbc14202e0 .functor BUFZ 1, c4<z>; HiZ drive
+v0xbc0c20500_0 .net "write_enable", 0 0, o0xbc14202e0;  0 drivers
+E_0xbc1004480 .event posedge, v0x100e0f440_0;
+L_0x100e0e730 .array/port v0xbc0c20280, L_0x100e0f680;
+L_0x100e0f680 .concat [ 3 2 0 0], o0xbc1420190, L_0xbc1454010;
+L_0x100e0f720 .array/port v0xbc0c20280, L_0x100e0f7c0;
+L_0x100e0f7c0 .concat [ 3 2 0 0], o0xbc14201c0, L_0xbc1454058;
+    .scope S_0x100e08780;
+T_0 ;
+    %wait E_0xbc1004480;
+    %load/vec4 v0xbc0c20320_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.0, 8;
+    %pushi/vec4 0, 0, 32;
+    %store/vec4 v0x100e0f4e0_0, 0, 32;
+T_0.2 ; Top of for-loop
+    %load/vec4 v0x100e0f4e0_0;
+    %cmpi/s 8, 0, 32;
+	  %jmp/0xz T_0.3, 5;
+    %pushi/vec4 0, 0, 8;
+    %ix/getv/s 3, v0x100e0f4e0_0;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v0xbc0c20280, 0, 4;
+T_0.4 ; for-loop step statement
+    %load/vec4 v0x100e0f4e0_0;
+    %addi 1, 0, 32;
+    %store/vec4 v0x100e0f4e0_0, 0, 32;
+    %jmp T_0.2;
+T_0.3 ; for-loop exit label
+    %jmp T_0.1;
+T_0.0 ;
+    %load/vec4 v0xbc0c20500_0;
+    %flag_set/vec4 8;
+    %jmp/0xz  T_0.5, 8;
+    %load/vec4 v0xbc0c20460_0;
+    %load/vec4 v0xbc0c203c0_0;
+    %pad/u 5;
+    %ix/vec4 3;
+    %ix/load 4, 0, 0; Constant delay
+    %assign/vec4/a/d v0xbc0c20280, 0, 4;
+T_0.5 ;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "rtl/register_file.v";

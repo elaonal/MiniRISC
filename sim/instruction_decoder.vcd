@@ -1,0 +1,68 @@
+$date
+	Thu Aug 27 12:55:36 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module instruction_decoder_tb $end
+$var wire 3 ! rs [2:0] $end
+$var wire 3 " rd [2:0] $end
+$var wire 4 # opcode [3:0] $end
+$var wire 8 $ immediate [7:0] $end
+$var reg 16 % instruction [15:0] $end
+$scope module dut $end
+$var wire 16 & instruction [15:0] $end
+$var wire 3 ' rs [2:0] $end
+$var wire 3 ( rd [2:0] $end
+$var wire 4 ) opcode [3:0] $end
+$var wire 8 * immediate [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b101 *
+b1 )
+b1 (
+b0 '
+b1001000000101 &
+b1001000000101 %
+b101 $
+b1 #
+b1 "
+b0 !
+$end
+#10000
+b11 #
+b11 )
+b10 !
+b10 '
+b10000000 $
+b10000000 *
+b11001010000000 %
+b11001010000000 &
+#20000
+b1001 #
+b1001 )
+b0 !
+b0 '
+b1010 $
+b1010 *
+b1001001000001010 %
+b1001001000001010 &
+#30000
+b1010 #
+b1010 )
+b0 "
+b0 (
+b10100 $
+b10100 *
+b1010000000010100 %
+b1010000000010100 &
+#40000

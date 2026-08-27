@@ -1,0 +1,89 @@
+#! /opt/homebrew/Cellar/icarus-verilog/13.0/bin/vvp
+:ivl_version "13.0 (stable)" "(v13_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/system.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/v2005_math.vpi";
+:vpi_module "/opt/homebrew/Cellar/icarus-verilog/13.0/lib/ivl/va_math.vpi";
+S_0x103398ea0 .scope module, "alu" "alu" 2 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 8 "a";
+    .port_info 1 /INPUT 8 "b";
+    .port_info 2 /INPUT 3 "op";
+    .port_info 3 /OUTPUT 8 "result";
+o0xa4f420010 .functor BUFZ 8, c4<zzzzzzzz>; HiZ drive
+v0x1033941c0_0 .net "a", 7 0, o0xa4f420010;  0 drivers
+o0xa4f420040 .functor BUFZ 8, c4<zzzzzzzz>; HiZ drive
+v0x103399220_0 .net "b", 7 0, o0xa4f420040;  0 drivers
+o0xa4f420070 .functor BUFZ 3, c4<zzz>; HiZ drive
+v0x1033992d0_0 .net "op", 2 0, o0xa4f420070;  0 drivers
+v0x103399370_0 .var "result", 7 0;
+E_0xa4ec08080 .event anyedge, v0x1033992d0_0, v0x1033941c0_0, v0x103399220_0;
+    .scope S_0x103398ea0;
+T_0 ;
+    %wait E_0xa4ec08080;
+    %load/vec4 v0x1033992d0_0;
+    %dup/vec4;
+    %pushi/vec4 0, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.0, 6;
+    %dup/vec4;
+    %pushi/vec4 1, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.1, 6;
+    %dup/vec4;
+    %pushi/vec4 2, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.2, 6;
+    %dup/vec4;
+    %pushi/vec4 3, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.3, 6;
+    %dup/vec4;
+    %pushi/vec4 4, 0, 3;
+    %cmp/u;
+    %jmp/1 T_0.4, 6;
+    %pushi/vec4 0, 0, 8;
+    %store/vec4 v0x103399370_0, 0, 8;
+    %jmp T_0.6;
+T_0.0 ;
+    %load/vec4 v0x1033941c0_0;
+    %load/vec4 v0x103399220_0;
+    %add;
+    %store/vec4 v0x103399370_0, 0, 8;
+    %jmp T_0.6;
+T_0.1 ;
+    %load/vec4 v0x1033941c0_0;
+    %load/vec4 v0x103399220_0;
+    %sub;
+    %store/vec4 v0x103399370_0, 0, 8;
+    %jmp T_0.6;
+T_0.2 ;
+    %load/vec4 v0x1033941c0_0;
+    %load/vec4 v0x103399220_0;
+    %and;
+    %store/vec4 v0x103399370_0, 0, 8;
+    %jmp T_0.6;
+T_0.3 ;
+    %load/vec4 v0x1033941c0_0;
+    %load/vec4 v0x103399220_0;
+    %or;
+    %store/vec4 v0x103399370_0, 0, 8;
+    %jmp T_0.6;
+T_0.4 ;
+    %load/vec4 v0x1033941c0_0;
+    %load/vec4 v0x103399220_0;
+    %xor;
+    %store/vec4 v0x103399370_0, 0, 8;
+    %jmp T_0.6;
+T_0.6 ;
+    %pop/vec4 1;
+    %jmp T_0;
+    .thread T_0, $push;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "rtl/alu.v";

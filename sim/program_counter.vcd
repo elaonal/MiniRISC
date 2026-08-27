@@ -1,0 +1,84 @@
+$date
+	Thu Aug 27 12:51:01 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module program_counter_tb $end
+$var wire 8 ! pc [7:0] $end
+$var reg 1 " clk $end
+$var reg 1 # load $end
+$var reg 8 $ next_pc [7:0] $end
+$var reg 1 % reset $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # load $end
+$var wire 8 & next_pc [7:0] $end
+$var wire 1 % reset $end
+$var reg 8 ' pc [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx '
+b0 &
+1%
+b0 $
+0#
+0"
+bx !
+$end
+#5000
+b0 !
+b0 '
+1"
+#10000
+0"
+0%
+#15000
+b1 !
+b1 '
+1"
+#20000
+0"
+#25000
+b10 !
+b10 '
+1"
+#30000
+0"
+#35000
+b11 !
+b11 '
+1"
+#40000
+0"
+1#
+b10100 $
+b10100 &
+#45000
+b10100 !
+b10100 '
+1"
+#50000
+0"
+0#
+#55000
+b10101 !
+b10101 '
+1"
+#60000
+0"
+#65000
+b10110 !
+b10110 '
+1"
+#70000
+0"
