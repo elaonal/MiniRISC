@@ -1,0 +1,7 @@
+# MiniRISC V2 generated simulation executables
+sim/*_v2_baseline
+sim/rtl_audit
+
+# Generated V2 baseline waveforms
+sim/instruction_register.vcd
+sim/minirisc_jz_taken.vcd

@@ -4,6 +4,7 @@ module program_counter_tb;
 
     reg        clk;
     reg        reset;
+    reg        enable;
     reg        load;
     reg  [7:0] next_pc;
 
@@ -13,6 +14,7 @@ module program_counter_tb;
     program_counter dut (
         .clk(clk),
         .reset(reset),
+        .enable(enable),
         .load(load),
         .next_pc(next_pc),
         .pc(pc)
@@ -45,6 +47,7 @@ module program_counter_tb;
 
         // Start with reset active
         reset   = 1;
+        enable  = 1;
         load    = 0;
         next_pc = 8'd0;
 
