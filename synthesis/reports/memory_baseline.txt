@@ -1,0 +1,231 @@
+
+16. Printing statistics.
+
+=== register_file ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       86 wires
+      587 wire bits
+       10 public wires
+       68 public wire bits
+        9 ports
+       36 port bits
+       31 cells
+       12   $dff
+        1   $mem_v2
+       18   $mux
+
+=== program_counter ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       14 wires
+       63 wire bits
+        6 public wires
+       20 public wire bits
+        6 ports
+       20 port bits
+        5 cells
+        1   $add
+        1   $dff
+        3   $mux
+
+=== minirisc_cpu ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       57 wires
+      200 wire bits
+       44 public wires
+      166 public wire bits
+        8 ports
+       32 port bits
+       11 cells
+        3   $eq
+        5   $logic_and
+        1   $logic_not
+        1   $logic_or
+        1   $pmux
+       10 submodules
+        1   $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory
+        1   alu
+        1   control_fsm
+        1   control_unit
+        1   data_memory
+        1   instruction_decoder
+        1   instruction_register
+        1   program_counter
+        1   register_file
+        1   status_register
+
+=== instruction_register ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       10 wires
+       85 wire bits
+        5 public wires
+       35 public wire bits
+        5 ports
+       35 port bits
+        3 cells
+        1   $dff
+        2   $mux
+
+=== $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      517 wires
+     8296 wire bits
+        3 public wires
+       56 public wire bits
+        2 ports
+       24 port bits
+        1 cells
+        1   $mem_v2
+
+=== instruction_decoder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       34 wire bits
+        5 public wires
+       34 public wire bits
+        5 ports
+       34 port bits
+
+=== data_memory ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      537 wires
+     4302 wire bits
+        7 public wires
+       59 public wire bits
+        6 ports
+       27 port bits
+        8 cells
+        3   $dff
+        1   $mem_v2
+        4   $mux
+
+=== control_unit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       29 wires
+       52 wire bits
+       10 public wires
+       16 public wire bits
+       10 ports
+       16 port bits
+        1 cells
+        1   $mem_v2
+
+=== control_fsm ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       30 wires
+       50 wire bits
+       10 public wires
+       14 public wire bits
+        9 ports
+       11 port bits
+       15 cells
+        1   $dff
+        8   $eq
+        2   $logic_not
+        3   $mux
+        1   $pmux
+
+=== status_register ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       17 wires
+       17 wire bits
+        7 public wires
+        7 public wire bits
+        7 ports
+        7 port bits
+        6 cells
+        2   $dff
+        4   $mux
+
+=== alu ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       25 wires
+      105 wire bits
+        6 public wires
+       29 public wire bits
+        6 ports
+       29 port bits
+       14 cells
+        1   $add
+        1   $and
+        4   $eq
+        3   $logic_not
+        1   $mux
+        1   $or
+        1   $pmux
+        1   $sub
+        1   $xor
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+       95 minirisc_cpu
+        1 $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory
+       14 alu
+       15 control_fsm
+        1 control_unit
+        8 data_memory
+        3 instruction_register
+        5 program_counter
+       31 register_file
+        6 status_register
+
+        +----------Count including submodules.
+        | 
+     1327 wires
+    13791 wire bits
+      113 public wires
+      504 public wire bits
+       73 ports
+      271 port bits
+        - memories
+        - memory bits
+        - processes
+       95 cells
+        2   $add
+        1   $and
+       20   $dff
+       15   $eq
+        5   $logic_and
+        6   $logic_not
+        1   $logic_or
+        4   $mem_v2
+       35   $mux
+        1   $or
+        3   $pmux
+        1   $sub
+        1   $xor
+       10 submodules
+        1   $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory
+        1   alu
+        1   control_fsm
+        1   control_unit
+        1   data_memory
+        1   instruction_decoder
+        1   instruction_register
+        1   program_counter
+        1   register_file
+        1   status_register
+

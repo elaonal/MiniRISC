@@ -1,0 +1,51 @@
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+ABC: ======== ABC command line "source <abc-temp-dir>/abc.script"
+=== register_file ===
+      199 cells
+=== program_counter ===
+       30 cells
+=== minirisc_cpu ===
+       66 cells
+=== instruction_register ===
+       16 cells
+=== $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory ===
+=== instruction_decoder ===
+=== data_memory ===
+     7106 cells
+=== control_unit ===
+       28 cells
+=== control_fsm ===
+       20 cells
+=== status_register ===
+        2 cells
+=== alu ===
+      161 cells
+=== design hierarchy ===
+     7628 cells
+=== register_file ===
+      199 cells
+=== program_counter ===
+       30 cells
+=== minirisc_cpu ===
+       66 cells
+=== instruction_register ===
+       16 cells
+=== $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory ===
+=== instruction_decoder ===
+=== data_memory ===
+     7106 cells
+=== control_unit ===
+       28 cells
+=== control_fsm ===
+       20 cells
+=== status_register ===
+        2 cells
+=== alu ===
+      161 cells
+=== design hierarchy ===
+     7628 cells

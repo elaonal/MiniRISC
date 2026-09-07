@@ -1,0 +1,177 @@
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     7628 minirisc_cpu
+      161 alu
+       20 control_fsm
+       28 control_unit
+     7106 data_memory
+       16 instruction_register
+       30 program_counter
+      199 register_file
+        2 status_register
+
+        +----------Count including submodules.
+        | 
+     5799 wires
+     8005 wire bits
+      375 public wires
+     2581 public wire bits
+       73 ports
+      271 port bits
+        - memories
+        - memory bits
+        - processes
+     7628 cells
+       30   $_ANDNOT_
+     1775   $_AND_
+     2048   $_DFFE_PP_
+      121   $_MUX_
+     3469   $_NAND_
+       15   $_NOR_
+        2   $_NOT_
+       16   $_ORNOT_
+       39   $_OR_
+       64   $_SDFFCE_PN0P_
+       26   $_SDFFE_PP0P_
+        3   $_SDFF_PP0_
+        3   $_XNOR_
+       17   $_XOR_
+       10 submodules
+        1   $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory
+        1   alu
+        1   control_fsm
+        1   control_unit
+        1   data_memory
+        1   instruction_decoder
+        1   instruction_register
+        1   program_counter
+        1   register_file
+        1   status_register
+
+14.26. Executing CHECK pass (checking for obvious problems).
+Checking module register_file...
+Checking module program_counter...
+Checking module minirisc_cpu...
+Checking module instruction_register...
+Checking module $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory...
+Checking module instruction_decoder...
+Checking module data_memory...
+Checking module control_unit...
+Checking module control_fsm...
+Checking module status_register...
+Checking module alu...
+Found and reported 0 problems.
+
+15. Printing statistics.
+
+=== register_file ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      136 wires
+      219 wire bits
+       17 public wires
+      100 public wire bits
+        9 ports
+       36 port bits
+      199 cells
+        4   $_ANDNOT_
+       10   $_AND_
+      112   $_MUX_
+        1   $_NOR_
+        8   $_OR_
+       64   $_SDFFCE_PN0P_
+
+=== program_counter ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       28 wires
+       42 wire bits
+        6 public wires
+       20 public wire bits
+        6 ports
+       20 port bits
+       30 cells
+        5   $_AND_
+        8   $_MUX_
+        1   $_NAND_
+        1   $_NOT_
+        8   $_SDFFE_PP0P_
+        1   $_XNOR_
+        6   $_XOR_
+
+=== minirisc_cpu ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       98 wires
+      220 wire bits
+       44 public wires
+      166 public wire bits
+        8 ports
+       32 port bits
+       66 cells
+        2   $_ANDNOT_
+       22   $_AND_
+       40   $_NAND_
+        1   $_NOR_
+        1   $_OR_
+--
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     7628 minirisc_cpu
+      161 alu
+       20 control_fsm
+       28 control_unit
+     7106 data_memory
+       16 instruction_register
+       30 program_counter
+      199 register_file
+        2 status_register
+
+        +----------Count including submodules.
+        | 
+     5799 wires
+     8005 wire bits
+      375 public wires
+     2581 public wire bits
+       73 ports
+      271 port bits
+        - memories
+        - memory bits
+        - processes
+     7628 cells
+       30   $_ANDNOT_
+     1775   $_AND_
+     2048   $_DFFE_PP_
+      121   $_MUX_
+     3469   $_NAND_
+       15   $_NOR_
+        2   $_NOT_
+       16   $_ORNOT_
+       39   $_OR_
+       64   $_SDFFCE_PN0P_
+       26   $_SDFFE_PP0P_
+        3   $_SDFF_PP0_
+        3   $_XNOR_
+       17   $_XOR_
+       10 submodules
+        1   $paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\instruction_memory
+        1   alu
+        1   control_fsm
+        1   control_unit
+        1   data_memory
+        1   instruction_decoder
+        1   instruction_register
+        1   program_counter
+        1   register_file
+        1   status_register
+
+End of script. Logfile hash: 5eb47ae86e, time: 1.54s, user: 0.30s, system: 0.03s, MEM: 50.88 MB peak
+Yosys 0.68+post (git sha1 c12172fbae8af5e20f6fb52e3d4e92d56ed587b6, Release, AppleClang clang++ 21.0.0.21000101)
+Time spent: 64% 1x abc (0 sec), 6% 21x opt_clean (0 sec), ...

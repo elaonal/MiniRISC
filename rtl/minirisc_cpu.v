@@ -1,5 +1,5 @@
 module minirisc_cpu #(
-    parameter PROGRAM_FILE = "programs/test_program.mem"
+    parameter PROGRAM_FILE = "programs/test_program_synth.mem"
 )(
     input  wire        clk,
     input  wire        reset,

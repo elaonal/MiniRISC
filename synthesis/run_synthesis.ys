@@ -1,0 +1,46 @@
+# ============================================================
+# MiniRISC V2 - Generic Synthesis Flow
+# ============================================================
+
+# Read RTL
+read_verilog -sv rtl/*.v
+
+# Set and check hierarchy
+hierarchy -check -top minirisc_cpu
+
+# ------------------------------------------------------------
+# Early synthesis / memory inference
+# ------------------------------------------------------------
+
+proc
+memory_collect
+
+tee -o synthesis/reports/memory_baseline.txt stat
+
+# ------------------------------------------------------------
+# Generic synthesis
+# ------------------------------------------------------------
+
+synth -top minirisc_cpu
+
+check
+
+tee -o synthesis/reports/generic_synthesis_stats.txt stat
+
+# ------------------------------------------------------------
+# Generate hierarchical netlist
+# ------------------------------------------------------------
+
+write_verilog -noattr \
+    synthesis/netlists/minirisc_generic_baseline.v
+
+# ------------------------------------------------------------
+# Flattened version
+# ------------------------------------------------------------
+
+flatten
+opt
+check
+
+write_verilog -noattr \
+    synthesis/netlists/minirisc_generic_flat_baseline.v
