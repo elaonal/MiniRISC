@@ -1,0 +1,72 @@
+WARNING: rtl/instruction_memory.v:20: $readmemb(programs/test_program.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - CPU REFERENCE MODEL
+==============================================
+
+
+REFERENCE #1 | PC=0 | LDI   | INSTR=0001001000001100
+REF REGS | R0=0 R1=12 R2=0 R3=0 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #2 | PC=1 | LDI   | INSTR=0001010000000101
+REF REGS | R0=0 R1=12 R2=5 R3=0 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #3 | PC=2 | MOV   | INSTR=0010011001000000
+REF REGS | R0=0 R1=12 R2=5 R3=12 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #4 | PC=3 | SUB   | INSTR=0100011010000000
+REF REGS | R0=0 R1=12 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #5 | PC=4 | AND   | INSTR=0101001010000000
+REF REGS | R0=0 R1=4 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #6 | PC=5 | OR    | INSTR=0110001010000000
+REF REGS | R0=0 R1=5 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #7 | PC=6 | XOR   | INSTR=0111001010000000
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #8 | PC=7 | LDI   | INSTR=0001100000101010
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=0 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #9 | PC=8 | STORE | INSTR=1001100000010100
+REF MEMORY | MEM[20]=42
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=0 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #10 | PC=9 | LOAD  | INSTR=1000101000010100
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=42 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #11 | PC=10 | NOP   | INSTR=0000000000000000
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=42 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #12 | PC=11 | HALT  | INSTR=1111000000000000
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=42 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+==============================================
+ REFERENCE MODEL FINAL CHECK
+==============================================
+
+REFERENCE FINAL STATE:
+R0=0 R1=0 R2=5 R3=7
+R4=42 R5=42 R6=0 R7=0
+Memory[20] = 42
+Zero       = 1
+Carry      = 0
+Retirements = 12
+
+CPU REFERENCE MODEL: PASS
+==============================================
+
+verification/tests/minirisc_reference_model_tb.sv:808: $finish called at 490000 (1ps)

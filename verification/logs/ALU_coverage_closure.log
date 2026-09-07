@@ -1,0 +1,21 @@
+
+==============================================
+ MINIRISC V2 - COMBINED COVERAGE REPORT
+==============================================
+
+==============================================
+ COVERAGE SUMMARY
+==============================================
+Operation coverage = 5 / 5
+Flag coverage      = 4 / 4
+Boundary coverage  = 8 / 8
+Cross coverage     = 10 / 10
+----------------------------------------------
+TOTAL COVERAGE     = 27 / 27
+COVERAGE PERCENT   = 100.00%
+
+COVERAGE HOLES: NONE
+COVERAGE CLOSURE: COMPLETE
+==============================================
+
+verification/tests/alu_coverage_report_tb.sv:770: $finish called at 16000 (1ps)

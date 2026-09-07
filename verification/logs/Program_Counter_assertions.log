@@ -1,0 +1,30 @@
+
+==============================================
+ MINIRISC V2 - PROGRAM COUNTER ASSERTIONS
+==============================================
+
+CHECK | RESET -> PC 0                | PC=0 EXPECTED=0
+CHECK | DISABLED -> HOLD             | PC=0 EXPECTED=0
+CHECK | INCREMENT 0 -> 1             | PC=1 EXPECTED=1
+CHECK | INCREMENT 1 -> 2             | PC=2 EXPECTED=2
+CHECK | INCREMENT 2 -> 3             | PC=3 EXPECTED=3
+CHECK | LOAD PC = 20                 | PC=20 EXPECTED=20
+CHECK | INCREMENT 20 -> 21           | PC=21 EXPECTED=21
+CHECK | INCREMENT 21 -> 22           | PC=22 EXPECTED=22
+CHECK | DISABLED LOAD -> HOLD        | PC=22 EXPECTED=22
+CHECK | LOAD PC = 255                | PC=255 EXPECTED=255
+CHECK | WRAP 255 -> 0                | PC=0 EXPECTED=0
+CHECK | RESET PRIORITY               | PC=0 EXPECTED=0
+CHECK | RESET REMAINS PC 0           | PC=0 EXPECTED=0
+CHECK | POST-RESET INCREMENT         | PC=1 EXPECTED=1
+
+==============================================
+ PROGRAM COUNTER ASSERTION SUMMARY
+==============================================
+Assertion checks   = 14
+Assertion failures = 0
+
+PROGRAM COUNTER ASSERTIONS: PASS
+==============================================
+
+verification/tests/program_counter_assertion_tb.sv:359: $finish called at 136000 (1ps)

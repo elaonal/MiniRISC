@@ -1,0 +1,32 @@
+
+==============================================
+ MINIRISC V2 - CONTROL UNIT ASSERTIONS
+==============================================
+
+CHECK | NOP        | OPCODE=0000 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | LDI        | OPCODE=0001 | RW=1 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | MOV        | OPCODE=0010 | RW=1 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | ADD        | OPCODE=0011 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | SUB        | OPCODE=0100 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | AND        | OPCODE=0101 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | OR         | OPCODE=0110 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | XOR        | OPCODE=0111 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | LOAD       | OPCODE=1000 | RW=1 FW=0 MR=1 MW=0 J=0 JZ=0 H=0
+CHECK | STORE      | OPCODE=1001 | RW=0 FW=0 MR=0 MW=1 J=0 JZ=0 H=0
+CHECK | JMP        | OPCODE=1010 | RW=0 FW=0 MR=0 MW=0 J=1 JZ=0 H=0
+CHECK | JZ         | OPCODE=1011 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=1 H=0
+CHECK | CMP        | OPCODE=1100 | RW=0 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | RESERVED   | OPCODE=1101 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | RESERVED   | OPCODE=1110 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | HALT       | OPCODE=1111 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=1
+
+==============================================
+ CONTROL ASSERTION SUMMARY
+==============================================
+Opcodes checked     = 16
+Assertion failures  = 0
+
+CONTROL ASSERTIONS: PASS
+==============================================
+
+verification/tests/control_unit_assertion_tb.sv:645: $finish called at 16000 (1ps)

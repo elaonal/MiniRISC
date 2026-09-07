@@ -1,0 +1,74 @@
+WARNING: rtl/instruction_memory.v:20: $readmemb(programs/branch_test.mem): Not enough words in the file for the requested range [0:255].
+WARNING: rtl/instruction_memory.v:20: $readmemb(programs/jz_taken_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - BRANCH / PC SCOREBOARD
+==============================================
+
+
+RETIRE #1 | JZ NOT TAKEN   | PC=0 | LDI  
+      PC MATCH         | DUT=1 REF=1
+
+RETIRE #1 | JZ TAKEN       | PC=0 | LDI  
+      PC MATCH         | DUT=1 REF=1
+
+RETIRE #2 | JZ NOT TAKEN   | PC=1 | LDI  
+      PC MATCH         | DUT=2 REF=2
+
+RETIRE #2 | JZ TAKEN       | PC=1 | LDI  
+      PC MATCH         | DUT=2 REF=2
+
+RETIRE #3 | JZ NOT TAKEN   | PC=2 | CMP  
+      PC MATCH         | DUT=3 REF=3
+
+RETIRE #3 | JZ TAKEN       | PC=2 | CMP  
+      PC MATCH         | DUT=3 REF=3
+
+RETIRE #4 | JZ NOT TAKEN   | PC=3 | JZ   
+      JZ NOT TAKEN    | next=4
+      PC MATCH         | DUT=4 REF=4
+
+RETIRE #4 | JZ TAKEN       | PC=3 | JZ   
+      JZ TAKEN        | target=6
+      PC MATCH         | DUT=6 REF=6
+
+RETIRE #5 | JZ NOT TAKEN   | PC=4 | LDI  
+      PC MATCH         | DUT=5 REF=5
+
+RETIRE #5 | JZ TAKEN       | PC=6 | LDI  
+      PC MATCH         | DUT=7 REF=7
+
+RETIRE #6 | JZ TAKEN       | PC=7 | HALT
+      HALT CONFIRMED    | PC=7
+
+RETIRE #6 | JZ NOT TAKEN   | PC=5 | JMP  
+      JMP TAKEN       | target=7
+      PC MATCH         | DUT=7 REF=7
+
+RETIRE #7 | JZ NOT TAKEN   | PC=7 | HALT
+      HALT CONFIRMED    | PC=7
+
+==============================================
+ BRANCH / PC SCOREBOARD SUMMARY
+==============================================
+
+CASE 1 - JZ NOT TAKEN + JMP
+Retirements       = 7
+JZ not taken hits = 1
+JZ taken hits     = 0
+JMP hits          = 1
+Child failures    = 0
+
+CASE 2 - JZ TAKEN
+Retirements       = 6
+JZ taken hits     = 1
+JZ not taken hits = 0
+JMP hits          = 0
+Child failures    = 0
+
+Top-level check failures = 0
+
+BRANCH / PC SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_branch_scoreboard_tb.sv:1449: $finish called at 281000 (1ps)

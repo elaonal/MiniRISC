@@ -1,0 +1,23 @@
+
+==============================================
+ MINIRISC V2 - RANDOM ALU REGRESSION
+==============================================
+
+
+==============================================
+ RANDOM REGRESSION SUMMARY
+==============================================
+TOTAL = 200
+PASS  = 200
+FAIL  = 0
+
+ADD hits = 32
+SUB hits = 47
+AND hits = 39
+OR hits  = 43
+XOR hits = 39
+
+RANDOM ALU REGRESSION: PASS
+==============================================
+
+verification/tests/alu_random_regression_tb.sv:365: $finish called at 200000 (1ps)

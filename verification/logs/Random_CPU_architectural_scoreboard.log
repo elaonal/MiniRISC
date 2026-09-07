@@ -1,0 +1,76 @@
+WARNING: rtl/instruction_memory.v:20: $readmemb(programs/random_cpu_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - RANDOM CPU SCOREBOARD
+==============================================
+
+PASS | RETIRE #1 | PC=0 | LDI  
+PASS | RETIRE #2 | PC=1 | LDI  
+PASS | RETIRE #3 | PC=2 | LDI  
+PASS | RETIRE #4 | PC=3 | LDI  
+PASS | RETIRE #5 | PC=4 | LDI  
+PASS | RETIRE #6 | PC=5 | LDI  
+PASS | RETIRE #7 | PC=6 | LDI  
+PASS | RETIRE #8 | PC=7 | LDI  
+PASS | RETIRE #9 | PC=8 | LDI  
+PASS | RETIRE #10 | PC=9 | AND  
+PASS | RETIRE #11 | PC=10 | LDI  
+PASS | RETIRE #12 | PC=11 | SUB  
+PASS | RETIRE #13 | PC=12 | OR   
+PASS | RETIRE #14 | PC=13 | NOP  
+PASS | RETIRE #15 | PC=14 | MOV  
+PASS | RETIRE #16 | PC=15 | NOP  
+PASS | RETIRE #17 | PC=16 | NOP  
+PASS | RETIRE #18 | PC=17 | AND  
+PASS | RETIRE #19 | PC=18 | ADD  
+PASS | RETIRE #20 | PC=19 | OR   
+PASS | RETIRE #21 | PC=20 | XOR  
+PASS | RETIRE #22 | PC=21 | NOP  
+PASS | RETIRE #23 | PC=22 | CMP  
+PASS | RETIRE #24 | PC=23 | NOP  
+PASS | RETIRE #25 | PC=24 | CMP  
+PASS | RETIRE #26 | PC=25 | XOR  
+PASS | RETIRE #27 | PC=26 | SUB  
+PASS | RETIRE #28 | PC=27 | NOP  
+PASS | RETIRE #29 | PC=28 | MOV  
+PASS | RETIRE #30 | PC=29 | ADD  
+PASS | RETIRE #31 | PC=30 | MOV  
+PASS | RETIRE #32 | PC=31 | NOP  
+PASS | RETIRE #33 | PC=32 | AND  
+PASS | RETIRE #34 | PC=33 | HALT 
+
+==============================================
+ RANDOM ARCHITECTURAL SCOREBOARD SUMMARY
+==============================================
+Retirements = 34
+PASS        = 34
+FAIL        = 0
+
+INSTRUCTION HITS:
+NOP  = 7
+LDI  = 10
+MOV  = 3
+ADD  = 2
+SUB  = 2
+AND  = 3
+OR   = 2
+XOR  = 2
+CMP  = 2
+HALT = 1
+
+FINAL DUT REGISTERS:
+R0=60 R1=50 R2=248 R3=114
+R4=188 R5=184 R6=156 R7=14
+
+FINAL REF REGISTERS:
+R0=60 R1=50 R2=248 R3=114
+R4=188 R5=184 R6=156 R7=14
+
+FLAGS DUT Z=0 C=0 | REF Z=0 C=0
+Final PC    = 33
+Final State = 4
+
+RANDOM ARCHITECTURAL SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_random_scoreboard_tb.sv:1160: $finish called at 1370000 (1ps)

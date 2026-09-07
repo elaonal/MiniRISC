@@ -1,0 +1,35 @@
+WARNING: rtl/instruction_memory.v:20: $readmemb(programs/test_program.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - ARCHITECTURAL SCOREBOARD
+==============================================
+
+PASS | RETIRE #1 | PC=0 | LDI  
+PASS | RETIRE #2 | PC=1 | LDI  
+PASS | RETIRE #3 | PC=2 | MOV  
+PASS | RETIRE #4 | PC=3 | SUB  
+PASS | RETIRE #5 | PC=4 | AND  
+PASS | RETIRE #6 | PC=5 | OR   
+PASS | RETIRE #7 | PC=6 | XOR  
+PASS | RETIRE #8 | PC=7 | LDI  
+PASS | RETIRE #9 | PC=8 | STORE
+PASS | RETIRE #10 | PC=9 | LOAD 
+PASS | RETIRE #11 | PC=10 | NOP  
+PASS | RETIRE #12 | PC=11 | HALT 
+
+==============================================
+ ARCHITECTURAL SCOREBOARD SUMMARY
+==============================================
+Retirements = 12
+PASS        = 12
+FAIL        = 0
+
+Final DUT: R1=0 R2=5 R3=7 R4=42 R5=42
+Final REF: R1=0 R2=5 R3=7 R4=42 R5=42
+Memory[20] DUT=42 REF=42
+Flags DUT Z=1 C=0 | REF Z=1 C=0
+
+ARCHITECTURAL SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_arch_scoreboard_tb.sv:884: $finish called at 490000 (1ps)

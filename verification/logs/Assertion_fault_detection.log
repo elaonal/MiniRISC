@@ -1,0 +1,20 @@
+
+==============================================
+ MINIRISC V2 - ASSERTION FAULT INJECTION
+==============================================
+
+MATCH    | RESET                | OBSERVED=0 EXPECTED=0
+MATCH    | NORMAL PC            | OBSERVED=1 EXPECTED=1
+ASSERTION VIOLATION DETECTED | OBSERVED=0 EXPECTED=1
+MATCH    | DUT STILL CORRECT    | OBSERVED=1 EXPECTED=1
+MATCH    | NEXT NORMAL PC       | OBSERVED=2 EXPECTED=2
+
+==============================================
+ FAULT-DETECTION SUMMARY
+==============================================
+Detected faults = 1
+
+ASSERTION FAULT-DETECTION TEST: PASS
+==============================================
+
+verification/tests/assertion_fault_injection_tb.sv:270: $finish called at 26000 (1ps)

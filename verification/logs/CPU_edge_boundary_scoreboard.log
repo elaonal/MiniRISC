@@ -1,0 +1,71 @@
+WARNING: rtl/instruction_memory.v:20: $readmemb(programs/edge_cpu_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - EDGE / BOUNDARY SCOREBOARD
+==============================================
+
+PASS | RETIRE #1 | PC=0 | OP=0001
+PASS | RETIRE #2 | PC=1 | OP=0001
+PASS | RETIRE #3 | PC=2 | OP=0001
+PASS | RETIRE #4 | PC=3 | OP=0001
+PASS | RETIRE #5 | PC=4 | OP=0001
+PASS | RETIRE #6 | PC=5 | OP=0001
+PASS | RETIRE #7 | PC=6 | OP=0011
+PASS | RETIRE #8 | PC=7 | OP=0001
+PASS | RETIRE #9 | PC=8 | OP=0001
+PASS | RETIRE #10 | PC=9 | OP=0011
+PASS | RETIRE #11 | PC=10 | OP=0100
+PASS | RETIRE #12 | PC=11 | OP=0001
+PASS | RETIRE #13 | PC=12 | OP=0100
+PASS | RETIRE #14 | PC=13 | OP=0101
+PASS | RETIRE #15 | PC=14 | OP=0110
+PASS | RETIRE #16 | PC=15 | OP=0111
+PASS | RETIRE #17 | PC=16 | OP=0001
+PASS | RETIRE #18 | PC=17 | OP=0001
+PASS | RETIRE #19 | PC=18 | OP=0011
+PASS | RETIRE #20 | PC=19 | OP=0001
+PASS | RETIRE #21 | PC=20 | OP=0011
+PASS | RETIRE #22 | PC=21 | OP=0001
+PASS | RETIRE #23 | PC=22 | OP=0010
+PASS | RETIRE #24 | PC=23 | OP=1100
+PASS | RETIRE #25 | PC=24 | OP=0001
+PASS | RETIRE #26 | PC=25 | OP=1100
+PASS | RETIRE #27 | PC=26 | OP=0000
+PASS | RETIRE #28 | PC=27 | OP=1111
+
+==============================================
+ EDGE / BOUNDARY SUMMARY
+==============================================
+Retirements = 28
+PASS        = 28
+FAIL        = 0
+
+BOUNDARY VALUE HITS
+0   = 2
+1   = 3
+254 = 2
+255 = 5
+
+ARITHMETIC EDGE HITS
+255 + 1   = 2
+255 + 255 = 1
+254 + 1   = 1
+SUB equal = 1
+SUB underflow = 1
+
+LOGIC EDGE HITS
+AND -> zero = 1
+OR -> 255 = 1
+XOR self = 1
+
+ARCHITECTURAL EDGE HITS
+R0 writes     = 4
+CMP equal     = 1
+CMP not equal = 1
+
+Final flags DUT Z=0 C=0 | REF Z=0 C=0
+
+EDGE / BOUNDARY SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_edge_scoreboard_tb.sv:1038: $finish called at 1130000 (1ps)

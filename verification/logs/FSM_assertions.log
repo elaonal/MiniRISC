@@ -1,0 +1,28 @@
+
+==============================================
+ MINIRISC V2 - CONTROL FSM ASSERTIONS
+==============================================
+
+CHECK | RESET -> FETCH           | STATE=0 EXPECTED=0
+CHECK | FETCH -> DECODE          | STATE=1 EXPECTED=1
+CHECK | DECODE -> EXECUTE        | STATE=2 EXPECTED=2
+CHECK | EXECUTE -> WRITEBACK     | STATE=3 EXPECTED=3
+CHECK | WRITEBACK -> FETCH       | STATE=0 EXPECTED=0
+CHECK | FETCH -> DECODE          | STATE=1 EXPECTED=1
+CHECK | DECODE + HALT -> HALT    | STATE=4 EXPECTED=4
+CHECK | HALT -> HALT             | STATE=4 EXPECTED=4
+CHECK | HALT REMAINS HALT        | STATE=4 EXPECTED=4
+CHECK | HALT + RESET -> FETCH    | STATE=0 EXPECTED=0
+CHECK | POST-RESET FETCH -> DECODE | STATE=1 EXPECTED=1
+CHECK | POST-RESET DECODE -> EXECUTE | STATE=2 EXPECTED=2
+
+==============================================
+ FSM ASSERTION SUMMARY
+==============================================
+Assertion checks   = 36
+Assertion failures = 0
+
+FSM ASSERTIONS: PASS
+==============================================
+
+verification/tests/control_fsm_assertion_tb.sv:500: $finish called at 116000 (1ps)
