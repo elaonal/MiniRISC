@@ -1,4 +1,4 @@
-WARNING: rtl/instruction_memory.v:20: $readmemb(programs/random_cpu_test.mem): Not enough words in the file for the requested range [0:255].
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/random_cpu_test.mem): Not enough words in the file for the requested range [0:255].
 
 ==============================================
  MINIRISC V2 - RANDOM CPU SCOREBOARD

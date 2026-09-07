@@ -1,0 +1,780 @@
+
+============================================================
+ MINIRISC V2 - AUTOMATED REGRESSION
+============================================================
+
+Generating constrained-random CPU program...
+✅ Random program generated
+
+Generating directed edge-case CPU program...
+✅ Edge program generated
+
+------------------------------------------------------------
+ TEST: ALU 57-case regression
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - ALU REGRESSION
+==============================================
+
+
+==============================================
+ REGRESSION SUMMARY
+==============================================
+TOTAL TESTS = 57
+PASS        = 57
+FAIL        = 0
+
+OVERALL RESULT: PASS
+==============================================
+
+verification/tests/alu_regression_tb.sv:380: $finish called at 57000 (1ps)
+
+✅ PASS | ALU 57-case regression
+
+
+------------------------------------------------------------
+ TEST: ALU coverage closure
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - COMBINED COVERAGE REPORT
+==============================================
+
+==============================================
+ COVERAGE SUMMARY
+==============================================
+Operation coverage = 5 / 5
+Flag coverage      = 4 / 4
+Boundary coverage  = 8 / 8
+Cross coverage     = 10 / 10
+----------------------------------------------
+TOTAL COVERAGE     = 27 / 27
+COVERAGE PERCENT   = 100.00%
+
+COVERAGE HOLES: NONE
+COVERAGE CLOSURE: COMPLETE
+==============================================
+
+verification/tests/alu_coverage_report_tb.sv:770: $finish called at 16000 (1ps)
+
+✅ PASS | ALU coverage closure
+
+
+------------------------------------------------------------
+ TEST: ALU assertions
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - ALU ASSERTIONS
+==============================================
+
+CHECK | ADD                | A=5 B=3 OP=000 | R=8 Z=0 C=0
+CHECK | SUB ZERO           | A=5 B=5 OP=001 | R=0 Z=1 C=0
+CHECK | AND                | A=170 B=204 OP=010 | R=136 Z=0 C=0
+CHECK | OR                 | A=170 B=85 OP=011 | R=255 Z=0 C=0
+CHECK | XOR                | A=170 B=204 OP=100 | R=102 Z=0 C=0
+CHECK | 255 + 1            | A=255 B=1 OP=000 | R=0 Z=1 C=1
+
+==============================================
+ ASSERTION SUMMARY
+==============================================
+Transactions checked = 6
+
+ALL ASSERTIONS COMPLETED WITHOUT FAILURE
+==============================================
+
+verification/tests/alu_assertion_tb.sv:274: $finish called at 6000 (1ps)
+
+✅ PASS | ALU assertions
+
+
+------------------------------------------------------------
+ TEST: Control Unit assertions
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - CONTROL UNIT ASSERTIONS
+==============================================
+
+CHECK | NOP        | OPCODE=0000 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | LDI        | OPCODE=0001 | RW=1 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | MOV        | OPCODE=0010 | RW=1 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | ADD        | OPCODE=0011 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | SUB        | OPCODE=0100 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | AND        | OPCODE=0101 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | OR         | OPCODE=0110 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | XOR        | OPCODE=0111 | RW=1 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | LOAD       | OPCODE=1000 | RW=1 FW=0 MR=1 MW=0 J=0 JZ=0 H=0
+CHECK | STORE      | OPCODE=1001 | RW=0 FW=0 MR=0 MW=1 J=0 JZ=0 H=0
+CHECK | JMP        | OPCODE=1010 | RW=0 FW=0 MR=0 MW=0 J=1 JZ=0 H=0
+CHECK | JZ         | OPCODE=1011 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=1 H=0
+CHECK | CMP        | OPCODE=1100 | RW=0 FW=1 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | RESERVED   | OPCODE=1101 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | RESERVED   | OPCODE=1110 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=0
+CHECK | HALT       | OPCODE=1111 | RW=0 FW=0 MR=0 MW=0 J=0 JZ=0 H=1
+
+==============================================
+ CONTROL ASSERTION SUMMARY
+==============================================
+Opcodes checked     = 16
+Assertion failures  = 0
+
+CONTROL ASSERTIONS: PASS
+==============================================
+
+verification/tests/control_unit_assertion_tb.sv:645: $finish called at 16000 (1ps)
+
+✅ PASS | Control Unit assertions
+
+
+------------------------------------------------------------
+ TEST: FSM assertions
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - CONTROL FSM ASSERTIONS
+==============================================
+
+CHECK | RESET -> FETCH           | STATE=0 EXPECTED=0
+CHECK | FETCH -> DECODE          | STATE=1 EXPECTED=1
+CHECK | DECODE -> EXECUTE        | STATE=2 EXPECTED=2
+CHECK | EXECUTE -> WRITEBACK     | STATE=3 EXPECTED=3
+CHECK | WRITEBACK -> FETCH       | STATE=0 EXPECTED=0
+CHECK | FETCH -> DECODE          | STATE=1 EXPECTED=1
+CHECK | DECODE + HALT -> HALT    | STATE=4 EXPECTED=4
+CHECK | HALT -> HALT             | STATE=4 EXPECTED=4
+CHECK | HALT REMAINS HALT        | STATE=4 EXPECTED=4
+CHECK | HALT + RESET -> FETCH    | STATE=0 EXPECTED=0
+CHECK | POST-RESET FETCH -> DECODE | STATE=1 EXPECTED=1
+CHECK | POST-RESET DECODE -> EXECUTE | STATE=2 EXPECTED=2
+
+==============================================
+ FSM ASSERTION SUMMARY
+==============================================
+Assertion checks   = 36
+Assertion failures = 0
+
+FSM ASSERTIONS: PASS
+==============================================
+
+verification/tests/control_fsm_assertion_tb.sv:500: $finish called at 116000 (1ps)
+
+✅ PASS | FSM assertions
+
+
+------------------------------------------------------------
+ TEST: Program Counter assertions
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - PROGRAM COUNTER ASSERTIONS
+==============================================
+
+CHECK | RESET -> PC 0                | PC=0 EXPECTED=0
+CHECK | DISABLED -> HOLD             | PC=0 EXPECTED=0
+CHECK | INCREMENT 0 -> 1             | PC=1 EXPECTED=1
+CHECK | INCREMENT 1 -> 2             | PC=2 EXPECTED=2
+CHECK | INCREMENT 2 -> 3             | PC=3 EXPECTED=3
+CHECK | LOAD PC = 20                 | PC=20 EXPECTED=20
+CHECK | INCREMENT 20 -> 21           | PC=21 EXPECTED=21
+CHECK | INCREMENT 21 -> 22           | PC=22 EXPECTED=22
+CHECK | DISABLED LOAD -> HOLD        | PC=22 EXPECTED=22
+CHECK | LOAD PC = 255                | PC=255 EXPECTED=255
+CHECK | WRAP 255 -> 0                | PC=0 EXPECTED=0
+CHECK | RESET PRIORITY               | PC=0 EXPECTED=0
+CHECK | RESET REMAINS PC 0           | PC=0 EXPECTED=0
+CHECK | POST-RESET INCREMENT         | PC=1 EXPECTED=1
+
+==============================================
+ PROGRAM COUNTER ASSERTION SUMMARY
+==============================================
+Assertion checks   = 14
+Assertion failures = 0
+
+PROGRAM COUNTER ASSERTIONS: PASS
+==============================================
+
+verification/tests/program_counter_assertion_tb.sv:359: $finish called at 136000 (1ps)
+
+✅ PASS | Program Counter assertions
+
+
+------------------------------------------------------------
+ TEST: CPU HALT reset assertions
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/halt_reset_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - CPU HALT/RESET ASSERTIONS
+==============================================
+
+CHECKING INITIAL RESET...
+
+RUNNING CPU - FIRST EXECUTION...
+CPU HALTED | PC=1 STATE=4 R1=7
+
+CHECKING HALT STABILITY FOR 5 CYCLES...
+Saved HALT state | PC=1 R1=7
+
+RESETTING CPU WHILE HALTED...
+
+RUNNING CPU - SECOND EXECUTION...
+CPU HALTED AGAIN | PC=1 STATE=4 R1=7
+
+==============================================
+ CPU HALT/RESET ASSERTION SUMMARY
+==============================================
+Assertion checks   = 36
+Assertion failures = 0
+
+CPU HALT/RESET ASSERTIONS: PASS
+==============================================
+
+verification/tests/minirisc_halt_reset_assertion_tb.sv:591: $finish called at 186000 (1ps)
+
+✅ PASS | CPU HALT reset assertions
+
+
+------------------------------------------------------------
+ TEST: Assertion fault detection
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - ASSERTION FAULT INJECTION
+==============================================
+
+MATCH    | RESET                | OBSERVED=0 EXPECTED=0
+MATCH    | NORMAL PC            | OBSERVED=1 EXPECTED=1
+ASSERTION VIOLATION DETECTED | OBSERVED=0 EXPECTED=1
+MATCH    | DUT STILL CORRECT    | OBSERVED=1 EXPECTED=1
+MATCH    | NEXT NORMAL PC       | OBSERVED=2 EXPECTED=2
+
+==============================================
+ FAULT-DETECTION SUMMARY
+==============================================
+Detected faults = 1
+
+ASSERTION FAULT-DETECTION TEST: PASS
+==============================================
+
+verification/tests/assertion_fault_injection_tb.sv:270: $finish called at 26000 (1ps)
+
+✅ PASS | Assertion fault detection
+
+
+------------------------------------------------------------
+ TEST: CPU retirement tracking
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/test_program.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - RETIREMENT TRACKER
+==============================================
+
+RETIRE #1 | PC=0 | LDI   | INSTR=0001001000001100
+RETIRE #2 | PC=1 | LDI   | INSTR=0001010000000101
+RETIRE #3 | PC=2 | MOV   | INSTR=0010011001000000
+RETIRE #4 | PC=3 | SUB   | INSTR=0100011010000000
+RETIRE #5 | PC=4 | AND   | INSTR=0101001010000000
+RETIRE #6 | PC=5 | OR    | INSTR=0110001010000000
+RETIRE #7 | PC=6 | XOR   | INSTR=0111001010000000
+RETIRE #8 | PC=7 | LDI   | INSTR=0001100000101010
+RETIRE #9 | PC=8 | STORE | INSTR=1001100000010100
+RETIRE #10 | PC=9 | LOAD  | INSTR=1000101000010100
+RETIRE #11 | PC=10 | NOP   | INSTR=0000000000000000
+RETIRE #12 | PC=11 | HALT  | INSTR=1111000000000000
+
+==============================================
+ RETIREMENT TRACKING SUMMARY
+==============================================
+Normal retirements = 11
+HALT retirements   = 1
+Total retirements  = 12
+
+Assertion checks   = 17
+Assertion failures = 0
+
+RETIREMENT TRACKING: PASS
+==============================================
+
+verification/tests/minirisc_retirement_tracker_tb.sv:477: $finish called at 490000 (1ps)
+
+✅ PASS | CPU retirement tracking
+
+
+------------------------------------------------------------
+ TEST: CPU architectural reference model
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/test_program.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - CPU REFERENCE MODEL
+==============================================
+
+
+REFERENCE #1 | PC=0 | LDI   | INSTR=0001001000001100
+REF REGS | R0=0 R1=12 R2=0 R3=0 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #2 | PC=1 | LDI   | INSTR=0001010000000101
+REF REGS | R0=0 R1=12 R2=5 R3=0 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #3 | PC=2 | MOV   | INSTR=0010011001000000
+REF REGS | R0=0 R1=12 R2=5 R3=12 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #4 | PC=3 | SUB   | INSTR=0100011010000000
+REF REGS | R0=0 R1=12 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #5 | PC=4 | AND   | INSTR=0101001010000000
+REF REGS | R0=0 R1=4 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #6 | PC=5 | OR    | INSTR=0110001010000000
+REF REGS | R0=0 R1=5 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=0 C=0
+
+REFERENCE #7 | PC=6 | XOR   | INSTR=0111001010000000
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=0 R5=0 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #8 | PC=7 | LDI   | INSTR=0001100000101010
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=0 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #9 | PC=8 | STORE | INSTR=1001100000010100
+REF MEMORY | MEM[20]=42
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=0 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #10 | PC=9 | LOAD  | INSTR=1000101000010100
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=42 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #11 | PC=10 | NOP   | INSTR=0000000000000000
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=42 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+REFERENCE #12 | PC=11 | HALT  | INSTR=1111000000000000
+REF REGS | R0=0 R1=0 R2=5 R3=7 R4=42 R5=42 R6=0 R7=0
+REF FLAGS | Z=1 C=0
+
+==============================================
+ REFERENCE MODEL FINAL CHECK
+==============================================
+
+REFERENCE FINAL STATE:
+R0=0 R1=0 R2=5 R3=7
+R4=42 R5=42 R6=0 R7=0
+Memory[20] = 42
+Zero       = 1
+Carry      = 0
+Retirements = 12
+
+CPU REFERENCE MODEL: PASS
+==============================================
+
+verification/tests/minirisc_reference_model_tb.sv:808: $finish called at 490000 (1ps)
+
+✅ PASS | CPU architectural reference model
+
+
+------------------------------------------------------------
+ TEST: CPU architectural scoreboard
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/test_program.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - ARCHITECTURAL SCOREBOARD
+==============================================
+
+PASS | RETIRE #1 | PC=0 | LDI  
+PASS | RETIRE #2 | PC=1 | LDI  
+PASS | RETIRE #3 | PC=2 | MOV  
+PASS | RETIRE #4 | PC=3 | SUB  
+PASS | RETIRE #5 | PC=4 | AND  
+PASS | RETIRE #6 | PC=5 | OR   
+PASS | RETIRE #7 | PC=6 | XOR  
+PASS | RETIRE #8 | PC=7 | LDI  
+PASS | RETIRE #9 | PC=8 | STORE
+PASS | RETIRE #10 | PC=9 | LOAD 
+PASS | RETIRE #11 | PC=10 | NOP  
+PASS | RETIRE #12 | PC=11 | HALT 
+
+==============================================
+ ARCHITECTURAL SCOREBOARD SUMMARY
+==============================================
+Retirements = 12
+PASS        = 12
+FAIL        = 0
+
+Final DUT: R1=0 R2=5 R3=7 R4=42 R5=42
+Final REF: R1=0 R2=5 R3=7 R4=42 R5=42
+Memory[20] DUT=42 REF=42
+Flags DUT Z=1 C=0 | REF Z=1 C=0
+
+ARCHITECTURAL SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_arch_scoreboard_tb.sv:884: $finish called at 490000 (1ps)
+
+✅ PASS | CPU architectural scoreboard
+
+
+------------------------------------------------------------
+ TEST: Branch and PC scoreboard
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/branch_test.mem): Not enough words in the file for the requested range [0:255].
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/jz_taken_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - BRANCH / PC SCOREBOARD
+==============================================
+
+
+RETIRE #1 | JZ NOT TAKEN   | PC=0 | LDI  
+      PC MATCH         | DUT=1 REF=1
+
+RETIRE #1 | JZ TAKEN       | PC=0 | LDI  
+      PC MATCH         | DUT=1 REF=1
+
+RETIRE #2 | JZ NOT TAKEN   | PC=1 | LDI  
+      PC MATCH         | DUT=2 REF=2
+
+RETIRE #2 | JZ TAKEN       | PC=1 | LDI  
+      PC MATCH         | DUT=2 REF=2
+
+RETIRE #3 | JZ NOT TAKEN   | PC=2 | CMP  
+      PC MATCH         | DUT=3 REF=3
+
+RETIRE #3 | JZ TAKEN       | PC=2 | CMP  
+      PC MATCH         | DUT=3 REF=3
+
+RETIRE #4 | JZ NOT TAKEN   | PC=3 | JZ   
+      JZ NOT TAKEN    | next=4
+      PC MATCH         | DUT=4 REF=4
+
+RETIRE #4 | JZ TAKEN       | PC=3 | JZ   
+      JZ TAKEN        | target=6
+      PC MATCH         | DUT=6 REF=6
+
+RETIRE #5 | JZ NOT TAKEN   | PC=4 | LDI  
+      PC MATCH         | DUT=5 REF=5
+
+RETIRE #5 | JZ TAKEN       | PC=6 | LDI  
+      PC MATCH         | DUT=7 REF=7
+
+RETIRE #6 | JZ TAKEN       | PC=7 | HALT
+      HALT CONFIRMED    | PC=7
+
+RETIRE #6 | JZ NOT TAKEN   | PC=5 | JMP  
+      JMP TAKEN       | target=7
+      PC MATCH         | DUT=7 REF=7
+
+RETIRE #7 | JZ NOT TAKEN   | PC=7 | HALT
+      HALT CONFIRMED    | PC=7
+
+==============================================
+ BRANCH / PC SCOREBOARD SUMMARY
+==============================================
+
+CASE 1 - JZ NOT TAKEN + JMP
+Retirements       = 7
+JZ not taken hits = 1
+JZ taken hits     = 0
+JMP hits          = 1
+Child failures    = 0
+
+CASE 2 - JZ TAKEN
+Retirements       = 6
+JZ taken hits     = 1
+JZ not taken hits = 0
+JMP hits          = 0
+Child failures    = 0
+
+Top-level check failures = 0
+
+BRANCH / PC SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_branch_scoreboard_tb.sv:1449: $finish called at 281000 (1ps)
+
+✅ PASS | Branch and PC scoreboard
+
+
+------------------------------------------------------------
+ TEST: Random ALU regression
+------------------------------------------------------------
+
+==============================================
+ MINIRISC V2 - RANDOM ALU REGRESSION
+==============================================
+
+
+==============================================
+ RANDOM REGRESSION SUMMARY
+==============================================
+TOTAL = 200
+PASS  = 200
+FAIL  = 0
+
+ADD hits = 32
+SUB hits = 47
+AND hits = 39
+OR hits  = 43
+XOR hits = 39
+
+RANDOM ALU REGRESSION: PASS
+==============================================
+
+verification/tests/alu_random_regression_tb.sv:365: $finish called at 200000 (1ps)
+
+✅ PASS | Random ALU regression
+
+
+------------------------------------------------------------
+ TEST: Random CPU program execution
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/random_cpu_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - RANDOM CPU PROGRAM
+==============================================
+
+RETIRE #1 | PC=0 | LDI   | INSTR=0001000000111100
+RETIRE #2 | PC=1 | LDI   | INSTR=0001001010100011
+RETIRE #3 | PC=2 | LDI   | INSTR=0001010000110100
+RETIRE #4 | PC=3 | LDI   | INSTR=0001011001110010
+RETIRE #5 | PC=4 | LDI   | INSTR=0001100011010111
+RETIRE #6 | PC=5 | LDI   | INSTR=0001101011111011
+RETIRE #7 | PC=6 | LDI   | INSTR=0001110011100001
+RETIRE #8 | PC=7 | LDI   | INSTR=0001111001111010
+RETIRE #9 | PC=8 | LDI   | INSTR=0001001000111000
+RETIRE #10 | PC=9 | AND   | INSTR=0101001111000000
+RETIRE #11 | PC=10 | LDI   | INSTR=0001111010100000
+RETIRE #12 | PC=11 | SUB   | INSTR=0100110100000000
+RETIRE #13 | PC=12 | OR    | INSTR=0110101110000000
+RETIRE #14 | PC=13 | NOP   | INSTR=0000000000000000
+RETIRE #15 | PC=14 | MOV   | INSTR=0010101001000000
+RETIRE #16 | PC=15 | NOP   | INSTR=0000000000000000
+RETIRE #17 | PC=16 | NOP   | INSTR=0000000000000000
+RETIRE #18 | PC=17 | AND   | INSTR=0101100111000000
+RETIRE #19 | PC=18 | ADD   | INSTR=0011100000000000
+RETIRE #20 | PC=19 | OR    | INSTR=0110101111000000
+RETIRE #21 | PC=20 | XOR   | INSTR=0111001110000000
+RETIRE #22 | PC=21 | NOP   | INSTR=0000000000000000
+RETIRE #23 | PC=22 | CMP   | INSTR=1100001110000000
+RETIRE #24 | PC=23 | NOP   | INSTR=0000000000000000
+RETIRE #25 | PC=24 | CMP   | INSTR=1100110100000000
+RETIRE #26 | PC=25 | XOR   | INSTR=0111111000000000
+RETIRE #27 | PC=26 | SUB   | INSTR=0100010000000000
+RETIRE #28 | PC=27 | NOP   | INSTR=0000000000000000
+RETIRE #29 | PC=28 | MOV   | INSTR=0010110111000000
+RETIRE #30 | PC=29 | ADD   | INSTR=0011111011000000
+RETIRE #31 | PC=30 | MOV   | INSTR=0010111111000000
+RETIRE #32 | PC=31 | NOP   | INSTR=0000000000000000
+RETIRE #33 | PC=32 | AND   | INSTR=0101110100000000
+RETIRE #34 | PC=33 | HALT  | INSTR=1111000000000000
+
+==============================================
+ RANDOM CPU EXECUTION SUMMARY
+==============================================
+Normal retirements = 33
+HALT retirements   = 1
+Total retirements  = 34
+Final PC           = 33
+Final state        = 4
+Zero               = 0
+Carry              = 0
+Failures           = 0
+
+FINAL REGISTERS:
+R0=60 R1=50 R2=248 R3=114
+R4=188 R5=184 R6=156 R7=14
+
+RANDOM CPU PROGRAM EXECUTION: PASS
+==============================================
+
+verification/tests/minirisc_random_program_tb.sv:474: $finish called at 1370000 (1ps)
+
+✅ PASS | Random CPU program execution
+
+
+------------------------------------------------------------
+ TEST: Random CPU architectural scoreboard
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/random_cpu_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - RANDOM CPU SCOREBOARD
+==============================================
+
+PASS | RETIRE #1 | PC=0 | LDI  
+PASS | RETIRE #2 | PC=1 | LDI  
+PASS | RETIRE #3 | PC=2 | LDI  
+PASS | RETIRE #4 | PC=3 | LDI  
+PASS | RETIRE #5 | PC=4 | LDI  
+PASS | RETIRE #6 | PC=5 | LDI  
+PASS | RETIRE #7 | PC=6 | LDI  
+PASS | RETIRE #8 | PC=7 | LDI  
+PASS | RETIRE #9 | PC=8 | LDI  
+PASS | RETIRE #10 | PC=9 | AND  
+PASS | RETIRE #11 | PC=10 | LDI  
+PASS | RETIRE #12 | PC=11 | SUB  
+PASS | RETIRE #13 | PC=12 | OR   
+PASS | RETIRE #14 | PC=13 | NOP  
+PASS | RETIRE #15 | PC=14 | MOV  
+PASS | RETIRE #16 | PC=15 | NOP  
+PASS | RETIRE #17 | PC=16 | NOP  
+PASS | RETIRE #18 | PC=17 | AND  
+PASS | RETIRE #19 | PC=18 | ADD  
+PASS | RETIRE #20 | PC=19 | OR   
+PASS | RETIRE #21 | PC=20 | XOR  
+PASS | RETIRE #22 | PC=21 | NOP  
+PASS | RETIRE #23 | PC=22 | CMP  
+PASS | RETIRE #24 | PC=23 | NOP  
+PASS | RETIRE #25 | PC=24 | CMP  
+PASS | RETIRE #26 | PC=25 | XOR  
+PASS | RETIRE #27 | PC=26 | SUB  
+PASS | RETIRE #28 | PC=27 | NOP  
+PASS | RETIRE #29 | PC=28 | MOV  
+PASS | RETIRE #30 | PC=29 | ADD  
+PASS | RETIRE #31 | PC=30 | MOV  
+PASS | RETIRE #32 | PC=31 | NOP  
+PASS | RETIRE #33 | PC=32 | AND  
+PASS | RETIRE #34 | PC=33 | HALT 
+
+==============================================
+ RANDOM ARCHITECTURAL SCOREBOARD SUMMARY
+==============================================
+Retirements = 34
+PASS        = 34
+FAIL        = 0
+
+INSTRUCTION HITS:
+NOP  = 7
+LDI  = 10
+MOV  = 3
+ADD  = 2
+SUB  = 2
+AND  = 3
+OR   = 2
+XOR  = 2
+CMP  = 2
+HALT = 1
+
+FINAL DUT REGISTERS:
+R0=60 R1=50 R2=248 R3=114
+R4=188 R5=184 R6=156 R7=14
+
+FINAL REF REGISTERS:
+R0=60 R1=50 R2=248 R3=114
+R4=188 R5=184 R6=156 R7=14
+
+FLAGS DUT Z=0 C=0 | REF Z=0 C=0
+Final PC    = 33
+Final State = 4
+
+RANDOM ARCHITECTURAL SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_random_scoreboard_tb.sv:1160: $finish called at 1370000 (1ps)
+
+✅ PASS | Random CPU architectural scoreboard
+
+
+------------------------------------------------------------
+ TEST: CPU edge boundary scoreboard
+------------------------------------------------------------
+WARNING: rtl/instruction_memory.v:11: $readmemb(programs/edge_cpu_test.mem): Not enough words in the file for the requested range [0:255].
+
+==============================================
+ MINIRISC V2 - EDGE / BOUNDARY SCOREBOARD
+==============================================
+
+PASS | RETIRE #1 | PC=0 | OP=0001
+PASS | RETIRE #2 | PC=1 | OP=0001
+PASS | RETIRE #3 | PC=2 | OP=0001
+PASS | RETIRE #4 | PC=3 | OP=0001
+PASS | RETIRE #5 | PC=4 | OP=0001
+PASS | RETIRE #6 | PC=5 | OP=0001
+PASS | RETIRE #7 | PC=6 | OP=0011
+PASS | RETIRE #8 | PC=7 | OP=0001
+PASS | RETIRE #9 | PC=8 | OP=0001
+PASS | RETIRE #10 | PC=9 | OP=0011
+PASS | RETIRE #11 | PC=10 | OP=0100
+PASS | RETIRE #12 | PC=11 | OP=0001
+PASS | RETIRE #13 | PC=12 | OP=0100
+PASS | RETIRE #14 | PC=13 | OP=0101
+PASS | RETIRE #15 | PC=14 | OP=0110
+PASS | RETIRE #16 | PC=15 | OP=0111
+PASS | RETIRE #17 | PC=16 | OP=0001
+PASS | RETIRE #18 | PC=17 | OP=0001
+PASS | RETIRE #19 | PC=18 | OP=0011
+PASS | RETIRE #20 | PC=19 | OP=0001
+PASS | RETIRE #21 | PC=20 | OP=0011
+PASS | RETIRE #22 | PC=21 | OP=0001
+PASS | RETIRE #23 | PC=22 | OP=0010
+PASS | RETIRE #24 | PC=23 | OP=1100
+PASS | RETIRE #25 | PC=24 | OP=0001
+PASS | RETIRE #26 | PC=25 | OP=1100
+PASS | RETIRE #27 | PC=26 | OP=0000
+PASS | RETIRE #28 | PC=27 | OP=1111
+
+==============================================
+ EDGE / BOUNDARY SUMMARY
+==============================================
+Retirements = 28
+PASS        = 28
+FAIL        = 0
+
+BOUNDARY VALUE HITS
+0   = 2
+1   = 3
+254 = 2
+255 = 5
+
+ARITHMETIC EDGE HITS
+255 + 1   = 2
+255 + 255 = 1
+254 + 1   = 1
+SUB equal = 1
+SUB underflow = 1
+
+LOGIC EDGE HITS
+AND -> zero = 1
+OR -> 255 = 1
+XOR self = 1
+
+ARCHITECTURAL EDGE HITS
+R0 writes     = 4
+CMP equal     = 1
+CMP not equal = 1
+
+Final flags DUT Z=0 C=0 | REF Z=0 C=0
+
+EDGE / BOUNDARY SCOREBOARD: PASS
+==============================================
+
+verification/tests/minirisc_edge_scoreboard_tb.sv:1038: $finish called at 1130000 (1ps)
+
+✅ PASS | CPU edge boundary scoreboard
+
+
+Cleaning regression executables...
+
+============================================================
+ MINIRISC V2 - REGRESSION SUMMARY
+============================================================
+
+TOTAL TESTS = 16
+PASS        = 16
+FAIL        = 0
+
+============================================================
+ REGRESSION RESULT: PASS
+============================================================
+

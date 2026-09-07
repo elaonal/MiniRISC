@@ -1,0 +1,28 @@
+read_verilog -sv rtl/*.v
+hierarchy -check -top minirisc_cpu
+
+proc
+opt
+fsm
+opt
+
+memory_collect
+memory_map
+opt
+
+flatten
+opt
+
+techmap
+opt
+
+abc -fast
+
+opt
+clean
+check
+
+stat
+ltp -noff
+
+write_verilog -noattr optimization/minirisc_optimized.v
