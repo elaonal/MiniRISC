@@ -1,3 +1,5 @@
+**Historical V1 document.** Statements below about synthesis or FPGA timing being outside scope describe V1 only. V2 has completed 20/20 selected regression tests, synthesis, place-and-route and post-route timing analysis; see the [current project overview](https://github.com/elaonal/MiniRISC#readme) and [V2 evidence](https://github.com/elaonal/MiniRISC/tree/v2-development). Physical FPGA-board validation remains future work.
+
 # MiniRISC V1
 
 A custom 8-bit multi-cycle RISC-style processor designed and implemented in Verilog.
