@@ -11148,7 +11148,7 @@
       "attributes": {
         "hdlname": "minirisc_ice40_top",
         "top": "00000000000000000000000000000001",
-        "src": "fpga/rtl/minirisc_ice40_top.v:1.1-59.10"
+        "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:1.1-59.10"
       },
       "parameter_default_values": {
         "CLK_FREQ_HZ": "00000010111110101111000010000000",
@@ -11182,10 +11182,10 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "fpga/rtl/minirisc_ice40_top.v:43.7-56.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:43.7-56.6",
             "module": "$paramod$413c7a9f17710a8a794f37fb6d8b8a10bf06c6d6\\minirisc_fpga_top",
             "module_hdlname": "minirisc_fpga_top",
-            "module_src": "fpga/rtl/minirisc_fpga_top.v:1.1-193.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:1.1-193.10"
           },
           "port_directions": {
           },
@@ -11200,11 +11200,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "fpga/rtl/minirisc_fpga_top.v:73.7-83.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:73.7-83.6",
             "hdlname": "fpga_core cpu_inst",
             "module": "$paramod$7d8052ce042664084c842722ba9b8da125aa65fb\\minirisc_cpu",
             "module_hdlname": "minirisc_cpu",
-            "module_src": "rtl/minirisc_cpu.v:1.1-432.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:1.1-432.10"
           },
           "port_directions": {
           },
@@ -11244,11 +11244,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:251.9-261.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:251.9-261.6",
             "hdlname": "fpga_core cpu_inst u_alu",
             "module": "alu",
             "module_hdlname": "alu",
-            "module_src": "rtl/alu.v:1.1-46.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:1.1-46.10"
           },
           "port_directions": {
           },
@@ -11263,11 +11263,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:179.18-195.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:179.18-195.6",
             "hdlname": "fpga_core cpu_inst u_control",
             "module": "control_unit",
             "module_hdlname": "control_unit",
-            "module_src": "rtl/control_unit.v:1.1-156.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/control_unit.v:1.1-156.10"
           },
           "port_directions": {
           },
@@ -11282,11 +11282,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:165.25-172.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:165.25-172.6",
             "hdlname": "fpga_core cpu_inst u_decoder",
             "module": "instruction_decoder",
             "module_hdlname": "instruction_decoder",
-            "module_src": "rtl/instruction_decoder.v:1.1-15.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/instruction_decoder.v:1.1-15.10"
           },
           "port_directions": {
           },
@@ -11301,11 +11301,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:286.17-298.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:286.17-298.6",
             "hdlname": "fpga_core cpu_inst u_dmem",
             "module": "data_memory",
             "module_hdlname": "data_memory",
-            "module_src": "rtl/data_memory.v:1.1-40.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/data_memory.v:1.1-40.10"
           },
           "port_directions": {
           },
@@ -63451,11 +63451,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:202.17-216.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:202.17-216.6",
             "hdlname": "fpga_core cpu_inst u_fsm",
             "module": "control_fsm",
             "module_hdlname": "control_fsm",
-            "module_src": "rtl/control_fsm.v:1.1-96.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:1.1-96.10"
           },
           "port_directions": {
           },
@@ -63469,7 +63469,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/control_fsm.v:26.5-36.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:26.5-36.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -63491,7 +63491,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/control_fsm.v:26.5-36.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:26.5-36.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -64113,7 +64113,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/control_fsm.v:26.5-36.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:26.5-36.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -64236,11 +64236,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:140.7-143.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:140.7-143.6",
             "hdlname": "fpga_core cpu_inst u_imem",
             "module": "$paramod$92fe2a251831b0d18e8a2edb8fff31acc8bb96bb\\instruction_memory",
             "module_hdlname": "instruction_memory",
-            "module_src": "rtl/instruction_memory.v:1.1-16.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/instruction_memory.v:1.1-16.10"
           },
           "port_directions": {
           },
@@ -95208,11 +95208,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:150.26-158.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:150.26-158.6",
             "hdlname": "fpga_core cpu_inst u_ir",
             "module": "instruction_register",
             "module_hdlname": "instruction_register",
-            "module_src": "rtl/instruction_register.v:1.1-22.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/instruction_register.v:1.1-22.10"
           },
           "port_directions": {
           },
@@ -95227,11 +95227,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:122.21-131.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:122.21-131.6",
             "hdlname": "fpga_core cpu_inst u_pc",
             "module": "program_counter",
             "module_hdlname": "program_counter",
-            "module_src": "rtl/program_counter.v:1.1-30.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:1.1-30.10"
           },
           "port_directions": {
           },
@@ -95245,7 +95245,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -95269,7 +95269,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -95319,7 +95319,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -95342,7 +95342,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -95364,7 +95364,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -95414,7 +95414,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -95437,7 +95437,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -95809,7 +95809,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -95859,7 +95859,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -95882,7 +95882,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -95904,7 +95904,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -95954,7 +95954,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -95977,7 +95977,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -95999,7 +95999,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -96049,7 +96049,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -96072,7 +96072,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -96094,7 +96094,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -96144,7 +96144,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -96168,7 +96168,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:10.5-28.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -96218,7 +96218,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -96266,7 +96266,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -96314,11 +96314,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:223.19-244.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:223.19-244.6",
             "hdlname": "fpga_core cpu_inst u_regfile",
             "module": "register_file",
             "module_hdlname": "register_file",
-            "module_src": "rtl/register_file.v:1.1-40.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/register_file.v:1.1-40.10"
           },
           "port_directions": {
           },
@@ -98594,11 +98594,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "rtl/minirisc_cpu.v:268.21-279.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:268.21-279.6",
             "hdlname": "fpga_core cpu_inst u_status",
             "module": "status_register",
             "module_hdlname": "status_register",
-            "module_src": "rtl/status_register.v:1.1-27.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/rtl/status_register.v:1.1-27.10"
           },
           "port_directions": {
           },
@@ -98612,7 +98612,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/status_register.v:13.5-25.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/status_register.v:13.5-25.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -98660,7 +98660,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98681,7 +98681,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98702,7 +98702,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98723,7 +98723,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98744,7 +98744,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98765,7 +98765,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98786,7 +98786,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98807,7 +98807,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -98855,7 +98855,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -98955,7 +98955,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -99055,7 +99055,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -99078,7 +99078,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -99099,7 +99099,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -99120,7 +99120,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -99141,7 +99141,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -99162,7 +99162,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -99185,7 +99185,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -99335,7 +99335,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -99410,7 +99410,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -99485,7 +99485,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -99635,7 +99635,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -105433,7 +105433,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -105454,7 +105454,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -105977,7 +105977,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -106202,7 +106202,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -106402,7 +106402,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -112177,7 +112177,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -118352,7 +118352,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -118552,7 +118552,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -119376,7 +119376,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "rtl/status_register.v:13.5-25.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/status_register.v:13.5-25.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -119600,7 +119600,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/minirisc_fpga_top.v:140.5-171.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:140.5-171.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -119623,11 +119623,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "fpga/rtl/minirisc_fpga_top.v:60.16-64.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:60.16-64.6",
             "hdlname": "fpga_core reset_sync_inst",
             "module": "reset_sync",
             "module_hdlname": "reset_sync",
-            "module_src": "fpga/rtl/reset_sync.v:1.1-36.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/reset_sync.v:1.1-36.10"
           },
           "port_directions": {
           },
@@ -119641,7 +119641,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/reset_sync.v:14.5-31.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:10.57-10.103"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/reset_sync.v:14.5-31.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:10.57-10.103"
           },
           "port_directions": {
             "C": "input",
@@ -119663,7 +119663,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/minirisc_fpga_top.v:140.5-171.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:140.5-171.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -119736,11 +119736,11 @@
           },
           "attributes": {
             "cell_module_not_derived": "00000000000000000000000000000001",
-            "cell_src": "fpga/rtl/minirisc_fpga_top.v:181.7-190.6",
+            "cell_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:181.7-190.6",
             "hdlname": "fpga_core uart_tx_inst",
             "module": "$paramod$100788816723f265f32c3fe4faf589ec2cde347b\\uart_tx",
             "module_hdlname": "uart_tx",
-            "module_src": "fpga/rtl/uart_tx.v:1.1-219.10"
+            "module_src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:1.1-219.10"
           },
           "port_directions": {
           },
@@ -120204,7 +120204,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120601,7 +120601,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120623,7 +120623,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120645,7 +120645,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120668,7 +120668,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -120691,7 +120691,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -120713,7 +120713,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120736,7 +120736,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -120759,7 +120759,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -120781,7 +120781,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120804,7 +120804,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -120827,7 +120827,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -120849,7 +120849,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120872,7 +120872,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -120895,7 +120895,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -120917,7 +120917,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -120940,7 +120940,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -120963,7 +120963,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -120985,7 +120985,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121008,7 +121008,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121031,7 +121031,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121053,7 +121053,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121076,7 +121076,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121099,7 +121099,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121121,7 +121121,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121144,7 +121144,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121167,7 +121167,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121189,7 +121189,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121212,7 +121212,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121235,7 +121235,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121257,7 +121257,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121280,7 +121280,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121303,7 +121303,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121326,7 +121326,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121349,7 +121349,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121371,7 +121371,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121393,7 +121393,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121416,7 +121416,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121439,7 +121439,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121461,7 +121461,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121484,7 +121484,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121507,7 +121507,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121529,7 +121529,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121552,7 +121552,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121575,7 +121575,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121597,7 +121597,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121620,7 +121620,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121643,7 +121643,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121665,7 +121665,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121688,7 +121688,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121711,7 +121711,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121733,7 +121733,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121756,7 +121756,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121779,7 +121779,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121801,7 +121801,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121824,7 +121824,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121847,7 +121847,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121869,7 +121869,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121892,7 +121892,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121915,7 +121915,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -121937,7 +121937,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -121960,7 +121960,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -121983,7 +121983,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122005,7 +122005,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122028,7 +122028,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122051,7 +122051,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122074,7 +122074,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122097,7 +122097,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122119,7 +122119,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122141,7 +122141,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122164,7 +122164,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122188,7 +122188,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122236,7 +122236,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122259,7 +122259,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122281,7 +122281,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122304,7 +122304,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122327,7 +122327,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122349,7 +122349,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122372,7 +122372,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122395,7 +122395,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122417,7 +122417,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122440,7 +122440,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122463,7 +122463,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122485,7 +122485,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122508,7 +122508,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122531,7 +122531,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122553,7 +122553,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122576,7 +122576,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122599,7 +122599,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122621,7 +122621,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:19.59-19.105"
           },
           "port_directions": {
             "C": "input",
@@ -122644,7 +122644,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122667,7 +122667,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122690,7 +122690,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:26.33-27.52"
           },
           "port_directions": {
             "I0": "input",
@@ -122713,7 +122713,7 @@
           "parameters": {
           },
           "attributes": {
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4"
           },
           "port_directions": {
             "CI": "input",
@@ -122735,7 +122735,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122759,7 +122759,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122783,7 +122783,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122807,7 +122807,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122831,7 +122831,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122855,7 +122855,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122879,7 +122879,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122903,7 +122903,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:24.66-24.119"
           },
           "port_directions": {
             "C": "input",
@@ -122927,7 +122927,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:25.66-25.119"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:47.5-216.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:25.66-25.119"
           },
           "port_directions": {
             "C": "input",
@@ -123201,7 +123201,7 @@
           },
           "attributes": {
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "fpga/rtl/reset_sync.v:14.5-31.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:10.57-10.103"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/reset_sync.v:14.5-31.8|/opt/homebrew/bin/../share/yosys/ice40/ff_map.v:10.57-10.103"
           },
           "port_directions": {
             "C": "input",
@@ -123222,14 +123222,14 @@
           "hide_name": 0,
           "bits": [ 6 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:31.10-31.21"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:31.10-31.21"
           }
         },
         "clk": {
           "hide_name": 0,
           "bits": [ 2 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:10.16-10.19"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:10.16-10.19"
           }
         },
         "fpga_core.carry_debug": {
@@ -123237,7 +123237,7 @@
           "bits": [ 6 ],
           "attributes": {
             "hdlname": "fpga_core carry_debug",
-            "src": "fpga/rtl/minirisc_fpga_top.v:31.24-31.35"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:31.24-31.35"
           }
         },
         "fpga_core.clk": {
@@ -123245,7 +123245,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core clk",
-            "src": "fpga/rtl/minirisc_fpga_top.v:8.16-8.19"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:8.16-8.19"
           }
         },
         "fpga_core.cpu_inst.carry_debug": {
@@ -123253,7 +123253,7 @@
           "bits": [ 6 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst carry_debug",
-            "src": "rtl/minirisc_cpu.v:12.24-12.35"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:12.24-12.35"
           }
         },
         "fpga_core.cpu_inst.carry_flag": {
@@ -123261,7 +123261,7 @@
           "bits": [ 6 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst carry_flag",
-            "src": "rtl/minirisc_cpu.v:104.10-104.20"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:104.10-104.20"
           }
         },
         "fpga_core.cpu_inst.clk": {
@@ -123269,7 +123269,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst clk",
-            "src": "rtl/minirisc_cpu.v:4.24-4.27"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:4.24-4.27"
           }
         },
         "fpga_core.cpu_inst.current_instruction": {
@@ -123277,7 +123277,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760, "0", 4761, 4762, 4763, 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst current_instruction",
-            "src": "rtl/minirisc_cpu.v:33.17-33.36",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:33.17-33.36",
             "unused_bits": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
           }
         },
@@ -123286,7 +123286,7 @@
           "bits": [ 4 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst halted",
-            "src": "rtl/minirisc_cpu.v:13.24-13.30"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:13.24-13.30"
           }
         },
         "fpga_core.cpu_inst.immediate": {
@@ -123294,7 +123294,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst immediate",
-            "src": "rtl/minirisc_cpu.v:43.16-43.25",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:43.16-43.25",
             "unused_bits": "0 1 2 3 4 5 6 7"
           }
         },
@@ -123303,7 +123303,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760, "0", 4761, 4762, 4763, 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst instruction_debug",
-            "src": "rtl/minirisc_cpu.v:9.24-9.41",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:9.24-9.41",
             "unused_bits": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
           }
         },
@@ -123312,7 +123312,7 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "0", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst instruction_from_memory",
-            "src": "rtl/minirisc_cpu.v:32.17-32.40"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:32.17-32.40"
           }
         },
         "fpga_core.cpu_inst.next_pc": {
@@ -123320,7 +123320,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst next_pc",
-            "src": "rtl/minirisc_cpu.v:25.16-25.23",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:25.16-25.23",
             "unused_bits": "0 1 2 3 4 5 6 7"
           }
         },
@@ -123329,7 +123329,7 @@
           "bits": [ 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst opcode",
-            "src": "rtl/minirisc_cpu.v:40.16-40.22",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:40.16-40.22",
             "unused_bits": "0 1 2 3"
           }
         },
@@ -123338,7 +123338,7 @@
           "bits": [ 10, 11, 2403, 2404, 2405, 2406, 2407, 2408 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst pc",
-            "src": "rtl/minirisc_cpu.v:21.16-21.18"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:21.16-21.18"
           }
         },
         "fpga_core.cpu_inst.pc_debug": {
@@ -123346,7 +123346,7 @@
           "bits": [ 10, 11, 2403, 2404, 2405, 2406, 2407, 2408 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst pc_debug",
-            "src": "rtl/minirisc_cpu.v:8.24-8.32"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:8.24-8.32"
           }
         },
         "fpga_core.cpu_inst.rd": {
@@ -123354,7 +123354,7 @@
           "bits": [ 4761, 4762, 4763 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst rd",
-            "src": "rtl/minirisc_cpu.v:41.16-41.18",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:41.16-41.18",
             "unused_bits": "0 1 2"
           }
         },
@@ -123363,7 +123363,7 @@
           "bits": [ 4759, 4760, "0" ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst rs",
-            "src": "rtl/minirisc_cpu.v:42.16-42.18",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:42.16-42.18",
             "unused_bits": "0 1"
           }
         },
@@ -123372,7 +123372,7 @@
           "bits": [ 7, 8, 9 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst state",
-            "src": "rtl/minirisc_cpu.v:69.16-69.21"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:69.16-69.21"
           }
         },
         "fpga_core.cpu_inst.state_debug": {
@@ -123380,7 +123380,7 @@
           "bits": [ 7, 8, 9 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst state_debug",
-            "src": "rtl/minirisc_cpu.v:10.24-10.35"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:10.24-10.35"
           }
         },
         "fpga_core.cpu_inst.u_control.opcode": {
@@ -123388,7 +123388,7 @@
           "bits": [ 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_control opcode",
-            "src": "rtl/control_unit.v:2.23-2.29",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_unit.v:2.23-2.29",
             "unused_bits": "0 1 2 3"
           }
         },
@@ -123397,7 +123397,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_decoder immediate",
-            "src": "rtl/instruction_decoder.v:7.23-7.32",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_decoder.v:7.23-7.32",
             "unused_bits": "0 1 2 3 4 5 6 7"
           }
         },
@@ -123406,7 +123406,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760, "0", 4761, 4762, 4763, 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_decoder instruction",
-            "src": "rtl/instruction_decoder.v:2.24-2.35",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_decoder.v:2.24-2.35",
             "unused_bits": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
           }
         },
@@ -123415,7 +123415,7 @@
           "bits": [ 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_decoder opcode",
-            "src": "rtl/instruction_decoder.v:4.23-4.29",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_decoder.v:4.23-4.29",
             "unused_bits": "0 1 2 3"
           }
         },
@@ -123424,7 +123424,7 @@
           "bits": [ 4761, 4762, 4763 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_decoder rd",
-            "src": "rtl/instruction_decoder.v:5.23-5.25",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_decoder.v:5.23-5.25",
             "unused_bits": "0 1 2"
           }
         },
@@ -123433,7 +123433,7 @@
           "bits": [ 4759, 4760, "0" ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_decoder rs",
-            "src": "rtl/instruction_decoder.v:6.23-6.25",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_decoder.v:6.23-6.25",
             "unused_bits": "0 1"
           }
         },
@@ -123442,7 +123442,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_dmem address",
-            "src": "rtl/data_memory.v:7.23-7.30",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/data_memory.v:7.23-7.30",
             "unused_bits": "0 1 2 3 4 5 6 7"
           }
         },
@@ -123451,7 +123451,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_dmem clk",
-            "src": "rtl/data_memory.v:2.23-2.26"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/data_memory.v:2.23-2.26"
           }
         },
         "fpga_core.cpu_inst.u_dmem.i": {
@@ -123460,7 +123460,7 @@
           "signed": 1,
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_dmem i",
-            "src": "rtl/data_memory.v:15.13-15.14"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/data_memory.v:15.13-15.14"
           }
         },
         "fpga_core.cpu_inst.u_dmem.memory[0]": {
@@ -126612,7 +126612,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_fsm clk",
-            "src": "rtl/control_fsm.v:2.23-2.26"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:2.23-2.26"
           }
         },
         "fpga_core.cpu_inst.u_fsm.halted": {
@@ -126620,7 +126620,7 @@
           "bits": [ 4 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_fsm halted",
-            "src": "rtl/control_fsm.v:12.23-12.29"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:12.23-12.29"
           }
         },
         "fpga_core.cpu_inst.u_fsm.state": {
@@ -126628,7 +126628,7 @@
           "bits": [ 7, 8, 9 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_fsm state",
-            "src": "rtl/control_fsm.v:6.23-6.28"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/control_fsm.v:6.23-6.28"
           }
         },
         "fpga_core.cpu_inst.u_fsm.state_SB_DFFSR_Q_1_D": {
@@ -126852,7 +126852,7 @@
           "bits": [ 10, 11, 2403, 2404, 2405, 2406, 2407, 2408 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_imem address",
-            "src": "rtl/instruction_memory.v:4.24-4.31"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_memory.v:4.24-4.31"
           }
         },
         "fpga_core.cpu_inst.u_imem.instruction": {
@@ -126860,7 +126860,7 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "0", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_imem instruction",
-            "src": "rtl/instruction_memory.v:5.24-5.35"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_memory.v:5.24-5.35"
           }
         },
         "fpga_core.cpu_inst.u_imem.memory.0.0_RCLKE": {
@@ -130656,7 +130656,7 @@
           "bits": [ 3622, 3620, 18, 3794 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_imem.memory.0.0_RDATA_7_SB_LUT4_I2_1_O_SB_LUT4_I2_O": {
@@ -130664,7 +130664,7 @@
           "bits": [ "0", 18, 3619, 3817 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_imem.memory.0.0_RDATA_7_SB_LUT4_I2_1_O_SB_LUT4_I2_O_SB_LUT4_O_I3": {
@@ -130853,7 +130853,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_ir clk",
-            "src": "rtl/instruction_register.v:2.24-2.27"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_register.v:2.24-2.27"
           }
         },
         "fpga_core.cpu_inst.u_ir.instruction_in": {
@@ -130861,7 +130861,7 @@
           "bits": [ "x", "x", "x", "x", "x", "x", "x", "x", "0", "x", "x", "x", "x", "x", "x", "x" ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_ir instruction_in",
-            "src": "rtl/instruction_register.v:6.24-6.38"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_register.v:6.24-6.38"
           }
         },
         "fpga_core.cpu_inst.u_ir.instruction_out": {
@@ -130869,7 +130869,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760, "0", 4761, 4762, 4763, 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_ir instruction_out",
-            "src": "rtl/instruction_register.v:7.24-7.39",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/instruction_register.v:7.24-7.39",
             "unused_bits": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
           }
         },
@@ -130878,7 +130878,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_pc clk",
-            "src": "rtl/program_counter.v:2.23-2.26"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:2.23-2.26"
           }
         },
         "fpga_core.cpu_inst.u_pc.next_pc": {
@@ -130886,7 +130886,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_pc next_pc",
-            "src": "rtl/program_counter.v:6.23-6.30",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:6.23-6.30",
             "unused_bits": "0 1 2 3 4 5 6 7"
           }
         },
@@ -130895,7 +130895,7 @@
           "bits": [ 10, 11, 2403, 2404, 2405, 2406, 2407, 2408 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_pc pc",
-            "src": "rtl/program_counter.v:7.23-7.25"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:7.23-7.25"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_1_D": {
@@ -130917,7 +130917,7 @@
           "bits": [ 3674 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_2_D": {
@@ -130939,7 +130939,7 @@
           "bits": [ 3675 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_2_D_SB_LUT4_O_I2": {
@@ -131009,7 +131009,7 @@
           "bits": [ 3678 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_4_D": {
@@ -131031,7 +131031,7 @@
           "bits": [ 3691 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_5_D": {
@@ -131053,7 +131053,7 @@
           "bits": [ 3694 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_6_D": {
@@ -131087,7 +131087,7 @@
           "bits": [ 3664, 3673, 2408, 3700 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_D_SB_LUT4_O_I3": {
@@ -131095,7 +131095,7 @@
           "bits": [ 3700 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/program_counter.v:23.23-23.32|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_pc.pc_SB_DFFESR_Q_E": {
@@ -131109,7 +131109,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_regfile clk",
-            "src": "rtl/register_file.v:2.23-2.26"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/register_file.v:2.23-2.26"
           }
         },
         "fpga_core.cpu_inst.u_regfile.read_addr1": {
@@ -131117,7 +131117,7 @@
           "bits": [ 4761, 4762, 4763 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_regfile read_addr1",
-            "src": "rtl/register_file.v:5.23-5.33",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/register_file.v:5.23-5.33",
             "unused_bits": "0 1 2"
           }
         },
@@ -131126,7 +131126,7 @@
           "bits": [ 4759, 4760, "0" ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_regfile read_addr2",
-            "src": "rtl/register_file.v:6.23-6.33",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/register_file.v:6.23-6.33",
             "unused_bits": "0 1"
           }
         },
@@ -131265,7 +131265,7 @@
           "bits": [ "0", 28, 3756, "1" ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_regfile.registers[4]_SB_LUT4_I1_O_SB_LUT4_O_1_I3": {
@@ -131341,7 +131341,7 @@
           "bits": [ 4761, 4762, 4763 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_regfile write_addr",
-            "src": "rtl/register_file.v:8.23-8.33",
+            "src": "/Users/ella/Documents/MiniRISC/rtl/register_file.v:8.23-8.33",
             "unused_bits": "0 1 2"
           }
         },
@@ -131350,7 +131350,7 @@
           "bits": [ 6 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_status carry_flag",
-            "src": "rtl/status_register.v:10.17-10.27"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/status_register.v:10.17-10.27"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D": {
@@ -131364,7 +131364,7 @@
           "bits": [ 3789 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI": {
@@ -131372,7 +131372,7 @@
           "bits": [ 3790 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
@@ -131380,7 +131380,7 @@
           "bits": [ 3792 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
@@ -131388,7 +131388,7 @@
           "bits": [ 3794 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
@@ -131396,7 +131396,7 @@
           "bits": [ 3795 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
@@ -131404,7 +131404,7 @@
           "bits": [ 3797 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
@@ -131412,7 +131412,7 @@
           "bits": [ 3799 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI": {
@@ -131420,7 +131420,7 @@
           "bits": [ 3801 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I0": {
@@ -131466,7 +131466,7 @@
           "bits": [ 3813 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CI_CO": {
@@ -131474,7 +131474,7 @@
           "bits": [ 3814 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
@@ -131482,7 +131482,7 @@
           "bits": [ 3815 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
@@ -131490,7 +131490,7 @@
           "bits": [ 3817 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
@@ -131498,7 +131498,7 @@
           "bits": [ 3819 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO": {
@@ -131506,7 +131506,7 @@
           "bits": [ 3820 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_CARRY_CI_CO_SB_LUT4_I3_O": {
@@ -132300,7 +132300,7 @@
           "bits": [ 4079 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O_SB_LUT4_O_I3_SB_CARRY_CO_I1": {
@@ -132362,7 +132362,7 @@
           "bits": [ "0", 3802, 26, 3801 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I0": {
@@ -132370,7 +132370,7 @@
           "bits": [ "0", 3800, 24, 3799 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I0_SB_LUT4_O_I2": {
@@ -132386,7 +132386,7 @@
           "bits": [ "0", 24, 2638, 3813 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O": {
@@ -132402,7 +132402,7 @@
           "bits": [ "0", 3798, 22, 3797 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I0_SB_LUT4_O_I2": {
@@ -132418,7 +132418,7 @@
           "bits": [ 3621, 22, 3816, 3814 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O": {
@@ -132434,7 +132434,7 @@
           "bits": [ "0", 3796, 20, 3795 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_I0_SB_LUT4_O_I2": {
@@ -132450,7 +132450,7 @@
           "bits": [ 3621, 20, 3818, 3815 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_CARRY_CO_CI_SB_LUT4_I3_O": {
@@ -133990,7 +133990,7 @@
           "bits": [ "0", 3793, 16, 3792 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_I0_SB_LUT4_O_I3": {
@@ -134006,7 +134006,7 @@
           "bits": [ "0", 16, 3821, 3819 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_CI_SB_CARRY_CO_I0_SB_LUT4_O_I3_SB_LUT4_I3_O_SB_LUT4_O_I3": {
@@ -134078,7 +134078,7 @@
           "bits": [ "0", 3791, 13, 3790 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:17.31-17.36|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_I0_SB_LUT4_O_I3": {
@@ -134094,7 +134094,7 @@
           "bits": [ "0", 13, 3822, 3820 ],
           "attributes": {
             "force_downto": "00000000000000000000000000000001",
-            "src": "rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/alu.v:21.22-21.27|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/cells_map.v:6.21-6.22"
           }
         },
         "fpga_core.cpu_inst.u_status.carry_flag_SB_DFFESR_Q_D_SB_LUT4_O_I3_SB_CARRY_CO_I0_SB_LUT4_O_I3_SB_LUT4_I3_O_SB_LUT4_O_I3": {
@@ -134182,7 +134182,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_status clk",
-            "src": "rtl/status_register.v:2.17-2.20"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/status_register.v:2.17-2.20"
           }
         },
         "fpga_core.cpu_inst.u_status.zero_flag": {
@@ -134190,7 +134190,7 @@
           "bits": [ 5 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst u_status zero_flag",
-            "src": "rtl/status_register.v:9.17-9.26"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/status_register.v:9.17-9.26"
           }
         },
         "fpga_core.cpu_inst.u_status.zero_flag_SB_DFFESR_Q_D": {
@@ -134234,7 +134234,7 @@
           "bits": [ 5 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst zero_debug",
-            "src": "rtl/minirisc_cpu.v:11.24-11.34"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:11.24-11.34"
           }
         },
         "fpga_core.cpu_inst.zero_flag": {
@@ -134242,7 +134242,7 @@
           "bits": [ 5 ],
           "attributes": {
             "hdlname": "fpga_core cpu_inst zero_flag",
-            "src": "rtl/minirisc_cpu.v:103.10-103.19"
+            "src": "/Users/ella/Documents/MiniRISC/rtl/minirisc_cpu.v:103.10-103.19"
           }
         },
         "fpga_core.halted": {
@@ -134250,7 +134250,7 @@
           "bits": [ 4 ],
           "attributes": {
             "hdlname": "fpga_core halted",
-            "src": "fpga/rtl/minirisc_fpga_top.v:32.24-32.30"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:32.24-32.30"
           }
         },
         "fpga_core.halted_previous": {
@@ -134258,7 +134258,7 @@
           "bits": [ 4600 ],
           "attributes": {
             "hdlname": "fpga_core halted_previous",
-            "src": "fpga/rtl/minirisc_fpga_top.v:53.16-53.31"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:53.16-53.31"
           }
         },
         "fpga_core.instruction_debug": {
@@ -134266,7 +134266,7 @@
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760, "0", 4761, 4762, 4763, 4764, 4765, 4766, 4767 ],
           "attributes": {
             "hdlname": "fpga_core instruction_debug",
-            "src": "fpga/rtl/minirisc_fpga_top.v:28.24-28.41",
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:28.24-28.41",
             "unused_bits": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
           }
         },
@@ -134275,7 +134275,7 @@
           "bits": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
           "attributes": {
             "hdlname": "fpga_core led",
-            "src": "fpga/rtl/minirisc_fpga_top.v:18.23-18.26"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:18.23-18.26"
           }
         },
         "fpga_core.pc_debug": {
@@ -134283,7 +134283,7 @@
           "bits": [ 10, 11, 2403, 2404, 2405, 2406, 2407, 2408 ],
           "attributes": {
             "hdlname": "fpga_core pc_debug",
-            "src": "fpga/rtl/minirisc_fpga_top.v:27.24-27.32"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:27.24-27.32"
           }
         },
         "fpga_core.reset": {
@@ -134291,7 +134291,7 @@
           "bits": [ 3 ],
           "attributes": {
             "hdlname": "fpga_core reset",
-            "src": "fpga/rtl/minirisc_fpga_top.v:11.16-11.21"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:11.16-11.21"
           }
         },
         "fpga_core.reset_sync_inst.async_reset": {
@@ -134299,7 +134299,7 @@
           "bits": [ 3 ],
           "attributes": {
             "hdlname": "fpga_core reset_sync_inst async_reset",
-            "src": "fpga/rtl/reset_sync.v:3.17-3.28"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/reset_sync.v:3.17-3.28"
           }
         },
         "fpga_core.reset_sync_inst.clk": {
@@ -134307,7 +134307,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core reset_sync_inst clk",
-            "src": "fpga/rtl/reset_sync.v:2.17-2.20"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/reset_sync.v:2.17-2.20"
           }
         },
         "fpga_core.reset_sync_inst.reset_ff": {
@@ -134315,7 +134315,7 @@
           "bits": [ 4601, 4768 ],
           "attributes": {
             "hdlname": "fpga_core reset_sync_inst reset_ff",
-            "src": "fpga/rtl/reset_sync.v:12.15-12.23",
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/reset_sync.v:12.15-12.23",
             "unused_bits": "1 "
           }
         },
@@ -134324,7 +134324,7 @@
           "bits": [ 7, 8, 9 ],
           "attributes": {
             "hdlname": "fpga_core state_debug",
-            "src": "fpga/rtl/minirisc_fpga_top.v:29.24-29.35"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:29.24-29.35"
           }
         },
         "fpga_core.uart_busy": {
@@ -134332,7 +134332,7 @@
           "bits": [ 4604 ],
           "attributes": {
             "hdlname": "fpga_core uart_busy",
-            "src": "fpga/rtl/minirisc_fpga_top.v:51.16-51.25"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:51.16-51.25"
           }
         },
         "fpga_core.uart_debug_byte": {
@@ -134340,7 +134340,7 @@
           "bits": [ 10, 11, 7, 8, 9, 6, 5, 4 ],
           "attributes": {
             "hdlname": "fpga_core uart_debug_byte",
-            "src": "fpga/rtl/minirisc_fpga_top.v:47.16-47.31"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:47.16-47.31"
           }
         },
         "fpga_core.uart_start": {
@@ -134348,7 +134348,7 @@
           "bits": [ 4603 ],
           "attributes": {
             "hdlname": "fpga_core uart_start",
-            "src": "fpga/rtl/minirisc_fpga_top.v:49.16-49.26"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:49.16-49.26"
           }
         },
         "fpga_core.uart_start_SB_DFFSR_Q_D": {
@@ -134435,7 +134435,7 @@
           "bits": [ 4604 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst busy",
-            "src": "fpga/rtl/uart_tx.v:12.23-12.27"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:12.23-12.27"
           }
         },
         "fpga_core.uart_tx_inst.busy_SB_DFFSR_Q_D": {
@@ -134505,7 +134505,7 @@
           "bits": [ 2 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst clk",
-            "src": "fpga/rtl/uart_tx.v:5.23-5.26"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:5.23-5.26"
           }
         },
         "fpga_core.uart_tx_inst.clk_count": {
@@ -134513,7 +134513,7 @@
           "bits": [ 4645, 4644, 4643, 4642, 4649, 4648, 4647, 4646, 4652, 4651, 4650, 4638, 4657, 4656, 4655, 4654, 4673, 4672, 4671, 4670, 4669, 4668, 4667, 4666, 4665, 4664, 4663, 4662, 4661, 4660, 4659, 4658 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst clk_count",
-            "src": "fpga/rtl/uart_tx.v:28.16-28.25"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:28.16-28.25"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_10_D": {
@@ -134527,7 +134527,7 @@
           "bits": [ 4677 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_11_D": {
@@ -134541,7 +134541,7 @@
           "bits": [ 4678 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_12_D": {
@@ -134555,7 +134555,7 @@
           "bits": [ 4680 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_13_D": {
@@ -134569,7 +134569,7 @@
           "bits": [ 4682 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_14_D": {
@@ -134583,7 +134583,7 @@
           "bits": [ 4684 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_15_D": {
@@ -134597,7 +134597,7 @@
           "bits": [ 4686 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_16_D": {
@@ -134611,7 +134611,7 @@
           "bits": [ 4688 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_17_D": {
@@ -134625,7 +134625,7 @@
           "bits": [ 4690 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_18_D": {
@@ -134639,7 +134639,7 @@
           "bits": [ 4692 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_19_D": {
@@ -134653,7 +134653,7 @@
           "bits": [ 4694 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_1_D": {
@@ -134667,7 +134667,7 @@
           "bits": [ 4697 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_20_D": {
@@ -134681,7 +134681,7 @@
           "bits": [ 4696 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_21_D": {
@@ -134695,7 +134695,7 @@
           "bits": [ 4701 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_22_D": {
@@ -134709,7 +134709,7 @@
           "bits": [ 4703 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_23_D": {
@@ -134723,7 +134723,7 @@
           "bits": [ 4705 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_24_D": {
@@ -134737,7 +134737,7 @@
           "bits": [ 4707 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_25_D": {
@@ -134751,7 +134751,7 @@
           "bits": [ 4709 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_26_D": {
@@ -134765,7 +134765,7 @@
           "bits": [ 4711 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_27_D": {
@@ -134779,7 +134779,7 @@
           "bits": [ 4713 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_28_D": {
@@ -134793,7 +134793,7 @@
           "bits": [ 4715 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_29_D": {
@@ -134807,7 +134807,7 @@
           "bits": [ 4717 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_2_D": {
@@ -134821,7 +134821,7 @@
           "bits": [ 4698 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_30_D": {
@@ -134847,7 +134847,7 @@
           "bits": [ 4719 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_4_D": {
@@ -134861,7 +134861,7 @@
           "bits": [ 4723 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_5_D": {
@@ -134875,7 +134875,7 @@
           "bits": [ 4725 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_6_D": {
@@ -134889,7 +134889,7 @@
           "bits": [ 4727 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_7_D": {
@@ -134903,7 +134903,7 @@
           "bits": [ 4729 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_8_D": {
@@ -134917,7 +134917,7 @@
           "bits": [ 4731 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_9_D": {
@@ -134931,7 +134931,7 @@
           "bits": [ 4733 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.clk_count_SB_DFFSR_Q_D": {
@@ -134945,7 +134945,7 @@
           "bits": [ 4735 ],
           "attributes": {
             "abc9_carry": "00000000000000000000000000000001",
-            "src": "fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:208.34-208.47|/opt/homebrew/bin/../share/yosys/ice40/arith_map.v:62.5-70.4|/opt/homebrew/bin/../share/yosys/ice40/abc9_model.v:4.9-4.11"
           }
         },
         "fpga_core.uart_tx_inst.data_in": {
@@ -134953,7 +134953,7 @@
           "bits": [ 10, 11, 7, 8, 9, 6, 5, 4 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst data_in",
-            "src": "fpga/rtl/uart_tx.v:8.23-8.30"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:8.23-8.30"
           }
         },
         "fpga_core.uart_tx_inst.data_reg": {
@@ -134961,7 +134961,7 @@
           "bits": [ 4743, 4742, 4741, 4740, 4739, 4738, 4737, 4736 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst data_reg",
-            "src": "fpga/rtl/uart_tx.v:30.16-30.24"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:30.16-30.24"
           }
         },
         "fpga_core.uart_tx_inst.start": {
@@ -134969,7 +134969,7 @@
           "bits": [ 4603 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst start",
-            "src": "fpga/rtl/uart_tx.v:9.23-9.28"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:9.23-9.28"
           }
         },
         "fpga_core.uart_tx_inst.tx": {
@@ -134977,7 +134977,7 @@
           "bits": [ 12 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_inst tx",
-            "src": "fpga/rtl/uart_tx.v:11.23-11.25"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/uart_tx.v:11.23-11.25"
           }
         },
         "fpga_core.uart_tx_inst.tx_SB_DFFESS_Q_D": {
@@ -135031,7 +135031,7 @@
           "bits": [ 12 ],
           "attributes": {
             "hdlname": "fpga_core uart_tx_pin",
-            "src": "fpga/rtl/minirisc_fpga_top.v:20.23-20.34"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:20.23-20.34"
           }
         },
         "fpga_core.zero_debug": {
@@ -135039,21 +135039,21 @@
           "bits": [ 5 ],
           "attributes": {
             "hdlname": "fpga_core zero_debug",
-            "src": "fpga/rtl/minirisc_fpga_top.v:30.24-30.34"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_fpga_top.v:30.24-30.34"
           }
         },
         "halted": {
           "hide_name": 0,
           "bits": [ 4 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:32.10-32.16"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:32.10-32.16"
           }
         },
         "instruction_debug": {
           "hide_name": 0,
           "bits": [ 4753, 4754, 4755, 4756, 4757, 4758, 4759, 4760, "0", 4761, 4762, 4763, 4764, 4765, 4766, 4767 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:27.17-27.34",
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:27.17-27.34",
             "unused_bits": "0 1 2 3 4 5 6 7 9 10 11 12 13 14 15"
           }
         },
@@ -135061,21 +135061,21 @@
           "hide_name": 0,
           "bits": [ 4, 5, 6, 7, 8, 9, 10, 11 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:13.23-13.26"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:13.23-13.26"
           }
         },
         "pc_debug": {
           "hide_name": 0,
           "bits": [ 10, 11, 2403, 2404, 2405, 2406, 2407, 2408 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:26.17-26.25"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:26.17-26.25"
           }
         },
         "reset": {
           "hide_name": 0,
           "bits": [ 3 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:11.16-11.21"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:11.16-11.21"
           }
         },
         "reset_SB_DFFS_S_Q": {
@@ -135090,21 +135090,21 @@
           "hide_name": 0,
           "bits": [ 7, 8, 9 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:28.17-28.28"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:28.17-28.28"
           }
         },
         "uart_tx_pin": {
           "hide_name": 0,
           "bits": [ 12 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:14.23-14.34"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:14.23-14.34"
           }
         },
         "zero_debug": {
           "hide_name": 0,
           "bits": [ 5 ],
           "attributes": {
-            "src": "fpga/rtl/minirisc_ice40_top.v:30.10-30.20"
+            "src": "/Users/ella/Documents/MiniRISC/fpga/rtl/minirisc_ice40_top.v:30.10-30.20"
           }
         }
       }
