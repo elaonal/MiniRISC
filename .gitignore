@@ -5,3 +5,18 @@ sim/rtl_audit
 # Generated V2 baseline waveforms
 sim/instruction_register.vcd
 sim/minirisc_jz_taken.vcd
+
+# Generated simulation waveforms and executables
+*.vcd
+*.out
+sim/*_sim
+sim/*_check
+sim/regression/
+sim/instruction_memory_synthsafe_test
+sim/minirisc_post_synth_smoke
+
+# Regenerable FPGA implementation output (reports remain tracked)
+fpga/build/
+
+# macOS metadata
+.DS_Store
