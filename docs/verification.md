@@ -1,3 +1,5 @@
+> **Historical V1 documentation.** Synthesis and FPGA timing described as future work below refer to V1. V2 has completed verification, synthesis, place-and-route and post-route timing analysis: see the [current overview](../README.md) and [implementation evidence](../fpga/reports/implementation_summary.md). Physical FPGA-board validation remains future work.
+
 # MiniRISC V1 Verification
 
 ## 1. Overview
